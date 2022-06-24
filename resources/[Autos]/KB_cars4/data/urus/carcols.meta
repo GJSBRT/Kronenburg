@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CVehicleModelInfoVarGlobal>    
+  <Wheels>
+    <Item/> <!-- VWT_SPORT -->
+    <Item/> <!-- VWT_MUSCLE -->
+    <Item/> <!-- VWT_LOWRIDER -->
+    <Item/> <!-- VWT_SUV -->
+    <Item/> <!-- VWT_OFFROAD -->
+    <Item/> <!-- VWT_TUNER -->
+    <Item/> <!-- VWT_BIKE -->
+    <Item> <!-- VWT_HIEND -->
+  <Item>
+        <wheelName>urus_nath_01</wheelName>
+        <wheelVariation />
+        <modShopLabel>URUSNATH01</modShopLabel>
+        <rimRadius value="0.348500"/>
+        <rear value="false"/>
+      </Item>
+  <Item>
+        <wheelName>urus_nath_02</wheelName>
+        <wheelVariation />
+        <modShopLabel>URUSNATH02</modShopLabel>
+        <rimRadius value="0.348500"/>
+        <rear value="false"/>
+      </Item>
+  <Item>
+        <wheelName>urus_nath_03</wheelName>
+        <wheelVariation />
+        <modShopLabel>URUSNATH03</modShopLabel>
+        <rimRadius value="0.348500"/>
+        <rear value="false"/>
+      </Item>
+  <Item>
+        <wheelName>urus_alcione_01</wheelName>
+        <wheelVariation />
+        <modShopLabel>URUSALCIONE01</modShopLabel>
+        <rimRadius value="0.348500"/>
+        <rear value="false"/>
+      </Item>
+  <Item>
+        <wheelName>urus_asterope_01</wheelName>
+        <wheelVariation />
+        <modShopLabel>URUSASTEROPE01</modShopLabel>
+        <rimRadius value="0.348500"/>
+        <rear value="false"/>
+      </Item>
+	</Item> 
+    <Item/> <!-- VWT_SUPERMOD1 -->
+    <Item/> <!-- VWT_SUPERMOD2 -->
+    <Item/>
+  </Wheels>
+</CVehicleModelInfoVarGlobal>
