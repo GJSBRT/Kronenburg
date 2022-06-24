@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>kronenburg-voip</title>
+		
+		<style>
+			.info-container {
+				position: absolute;
+				bottom: 0%;
+				right: 0%;
+				text-align: right;
+				padding: 5px;
+				font-family: sans-serif;
+				font-weight: bold;
+				color: #ffaf00;
+				font-size: 0.5vw;
+				text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+			}
+
+			.talking {
+				color: rgba(244, 196, 65, 255);
+			}
+
+			.watermark {
+				position: fixed;
+				top: 0%;
+				right: 0%;
+				text-align: right;
+				opacity: 0.4;
+				z-index: 99;
+				color: rgb(184, 185, 185);
+				font-family: Arial;
+				font-weight: normal;
+				font-size: 0.5vw;
+				opacity: 0.8;
+			}
+
+			.streetName {
+				position: fixed;
+				bottom: 1%;
+				text-align: left;
+				opacity: 0.9;
+				z-index: 99;
+				text-shadow: 
+					3px 3px 5px #000,
+					-1px -1px 5px #000,  
+					1px -1px 5px #000,
+					-1px 1px 5px #000,
+					1px 1px 5px #000;
+				color: rgb(255, 255, 255);
+				font-family: 'Rubik', sans-serif;
+				font-weight: normal;
+				font-size: 1.0rem;
+				opacity: 0.8;
+				width: 75%;
+				left: 2%;
+			}
+
+			.zoneName {
+				position: absolute;
+				bottom: 1%;
+				text-align: left;
+				opacity: 0.9;
+				z-index: 15;
+				text-shadow: 
+					3px 3px 5px #000,
+					-1px -1px 5px #000,  
+					1px -1px 5px #000,
+					-1px 1px 5px #000,
+					1px 1px 5px #000;
+				color: rgb(255, 255, 255);
+				font-family: 'Rubik', sans-serif;
+				font-weight: normal;
+				font-size: 1.0rem;
+				opacity: 0.8;
+				width: 75%;
+				right: 5%;
+
+			}
+
+			.streetName div {
+				float: left;
+				margin-right: 0.5%;
+			}
+			.zoneName div {
+				float: right;
+				margin-left: 0.5%;
+			}
+
+			.radio-list-container {
+				position: absolute;
+				top: 3%;
+				right: 0%;
+				text-align: right;
+				padding: 5px;
+				font-family: sans-serif;
+				font-weight: bold;
+				color: #ffaf00;
+				font-size: 0.5vw;
+				text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+			}
+		</style>
+		<script type="text/javascript">
+			let speakerEnabled = true;
+			
+			window.addEventListener("message", function(event) {
+				var item = event.data;
+
+				if (item.sound && item.volume) {
+					let snd = document.getElementById(item.sound);
+					snd.load();
+					snd.volume = item.volume;
+					snd.play();
+				}
+
+				if (item.playerId != null) {
+					let sourceElem = document.getElementById("player-id");
+
+					if (item.playerId > 0 || isNaN(item.playerId)) {
+						sourceElem.innerHTML = "[ID] " + item.playerId;
+					} else {
+						sourceElem.innerHTML = "";
+					}
+				}
+
+				if (item.speakerOption != null) {
+					speakerEnabled = item.speakerOption;
+				}
+
+				if (item.mode) {					
+					let modeElem = document.getElementById("voip-mode");
+
+					modeElem.textContent = item.mode + (item.radioActive ? " on radio" : "");
+
+					if (item.talking != null) {
+						if (item.talking) {
+							modeElem.className = "talking"
+						} else {
+							modeElem.className = ""
+						}
+					}					
+				}
+
+				if (item.postalCode != null) {
+					let streetElem = document.getElementById("postal-code");
+
+					streetElem.innerHTML = item.postalCode;
+				}
+				if (item.zoneName != null) {
+					let zoneElem = document.getElementById("zone-name");
+
+					zoneElem.innerHTML = item.zoneName;
+				}
+				if (item.streetName != null) {
+					let streetElem = document.getElementById("street-name");
+					let crossingElem = document.getElementById("crossing-name");
+
+					streetElem.innerHTML = item.streetName;
+					crossingElem.innerHTML = item.crossingName || '';
+				}
+				if (item.minimap != null) {
+					let streetElem = $(".minimap").each(function(index, elem) {
+						elem.style.left = window.screen.availWidth * item.minimap + 'px';
+					});
+				}
+
+				if (item.radio != null) {
+					let radioElem = document.getElementById("voip-radio");
+
+					if (item.radio > 0 || isNaN(item.radio)) {
+						radioElem.textContent = "[Radio] " + item.radio + (!isNaN(item.radio) ? " MHz" : "");					
+					} else {
+						radioElem.textContent = "";
+					}
+				}
+
+				if (item.call != null) {
+					let callElem = document.getElementById("voip-call");
+					
+					if (item.call > 0) {
+						if (speakerEnabled) {
+							callElem.textContent = "[Telefoon] [" + (item.speaker ? "\uD83D\uDD0A" : "\uD83D\uDD08") + "] " + item.call;
+						} else {
+							callElem.textContent = "[Telefoon] " + item.call;
+						}
+					} else {
+						callElem.textContent = "";
+					}
+				}
+
+				if (item.warningId != null) {
+					let warningElem = document.getElementById("voip-warning");
+
+					if (item.warningMsg != null) {
+						let warningItem = document.createElement("div");
+						let warningItemTitle = document.createElement("span");
+						let warningItemContent = document.createElement("span");
+
+						warningItem.id = item.warningId;
+						warningItemTitle.textContent = "[Waarschuwing] ";
+						warningItemTitle.className = "talking";
+						warningItemContent.textContent = item.warningMsg;
+
+						warningItem.appendChild(warningItemTitle);
+						warningItem.appendChild(warningItemContent);
+						warningElem.appendChild(warningItem);
+					} else {
+						let warningItem = document.getElementById(item.warningId);
+						warningElem.removeChild(warningItem);
+					}
+				}
+
+				if (item.radioId != null) {
+					let radioListElem = document.getElementById("voip-radio-list");
+
+					if (!radioListElem.firstChild) { //add radio list header
+						let listHeader = document.createElement("div");
+
+						listHeader.id = "voip-radio-list-header";
+						listHeader.textContent = "📻In portofoon:";
+						listHeader.style.textDecorationLine = "underline";
+
+						radioListElem.appendChild(listHeader);
+					}
+
+					if (item.radioName != null) {
+						let listItem = document.createElement("div");
+
+						listItem.id = "voip-radio-list-item-" + item.radioId;
+						listItem.textContent =  "[" + item.radioName + "]";
+
+						radioListElem.appendChild(listItem);
+					} else if (item.radioTalking != null) {
+						let listItem = document.getElementById("voip-radio-list-item-" + item.radioId)
+						
+						if (item.radioTalking) {
+							listItem.className = "talking"
+						} else {
+							listItem.className = ""
+						}
+					} else {
+						let listItem = document.getElementById("voip-radio-list-item-" + item.radioId)
+						radioListElem.removeChild(listItem);
+					}
+				}
+
+				if (item.clearRadioList) {
+					let radioListElem = document.getElementById("voip-radio-list");
+
+					while (radioListElem.firstChild) {
+						radioListElem.removeChild(radioListElem.firstChild);
+					}
+				}
+			});
+		</script>
+	</head>
+	<body id="voip-ui">
+		<audio id="audio_on" src="mic_click_on.ogg"></audio>
+		<audio id="audio_off" src="mic_click_off.ogg"></audio>
+
+
+
+		<div class="minimap streetName">
+			<div id="postal-code"></div>
+			<div id="crossing-name"></div>
+			<div id="street-name"></div>
+			<div> </div>
+			<div id="zone-name"></div>
+		</div>
+		
+		<div class="radio-list-container" id="voip-radio-list"></div>
+		<div class="info-container">
+			<div id="player-id"></div>
+			<div>[Stem] <span id="voip-mode">Laden...</span></div>
+			<div id="voip-radio"></div>
+			<div id="voip-call"></div>
+			<div id="voip-warning"></div>
+			<div>[Tijd] <span id="voip-time"></span></d>
+		</div>
+
+
+	</body>
+	<script src="https://releases.jquery.com/git/jquery-git.min.js"></script>
+	<script>
+		function updateTime() {
+			document.getElementById("voip-time").innerText = new Date().toLocaleString();
+			setTimeout(updateTime, 1000)
+		}
+		updateTime();
+
+		$(function(){
+			window.addEventListener('message', function(event) {
+				if (event.data.action == "toggle"){
+					if (event.data.show){
+						$('#voip-ui').show();
+					} else{
+						$('#voip-ui').hide();
+					}
+				}
+			});
+		});
+	</script>
+</html>

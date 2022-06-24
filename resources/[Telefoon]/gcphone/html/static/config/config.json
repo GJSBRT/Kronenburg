@@ -1,0 +1,360 @@
+{
+  "reseau": "K-Mobile",
+  "warningMessageCount": 800,
+  "themeColor": "#007aff",
+  "themeColorTitle": "#f7f7f7",
+  "colors": [
+    "#EF5350",
+    "#EC407A",
+    "#AB47BC",
+    "#7E57C2",
+    "#5C6BC0",
+    "#42A5F5",
+    "#29B6F6",
+    "#26C6DA",
+    "#26A69A",
+    "#66BB6A",
+    "#9CCC65",
+    "#D4E157",
+    "#FFCA28",
+    "#FFA726",
+    "#FF7043",
+    "#8D6E63",
+    "#78909C"
+  ],
+
+  "useFormatNumberFrance": true,
+
+  "/Sentry/": "Enabling this option can help us to discover new bugs and solve them ASAP! (We beg you to keep this enabled, so we can help us each other as a community)",
+  "useSentryErroTracking": false,
+
+  "useWebRTCVocal": false,
+  "RTCConfig": {
+    "iceServers": [{
+      "urls": ["turn:barrax.needrp.net"],
+      "username": "gcphone",
+      "credential": "gcphone"
+    }]
+  },
+
+  "//": "REQUIRE https://github.com/citizenfx/screenshot-basic or set false",
+  "enableTakePhoto": true,
+  "fileUploadService_Url": "https://gcphone.herokuapp.com/uploads/upload",
+  "fileUploadService_Field": "image",
+
+  "background": {
+    "Kronenburg": "back001.jpg",
+    "Mountains": "back002.jpg",
+    "Retro Space": "neon.jpg",
+    "Fair": "back003.jpg",
+    "Cyberpunk": "humo.jpg",
+    "URL": "URL"
+  },
+  "background_default": {
+    "label": "Kronenburg",
+    "value": "back001.jpg"
+  },
+
+
+  "coque": {
+    "Default": "blue.png",
+    "Gray": "grey.png",
+    "Salmon": "pink.png",
+    "Red": "red.png",
+    "Mint": "s8.png"
+  },
+
+  "sonido": {
+    "Astronomia": "ring.ogg",
+    "Safaera": "safaera.ogg",
+    "Bella Ciao": "bella_ciao.ogg",
+    "Casa Papel": "casa_papel.ogg",
+    "Iphone 11": "iphone_11.ogg",
+    "Tusa": "tusa.ogg",
+    "XXXTentacion": "xtentacion.ogg"
+  },
+
+  "coque_default": {
+    "label": "Default",
+    "value": "blue.png"
+  },
+
+  "sonido_default": {
+    "label": "Casa Papel",
+    "value": "casa_papel.ogg"
+  },
+
+
+  "serviceCall": [{
+    "display": "Politie",
+    "icon": "/html/static/img/icons_app/policia.png",
+    "subMenu": [{
+        "title": "Stuur een bericht",
+        "eventName": "esx_addons_gcphone:call",
+        "type": {
+          "number": "police"
+        }
+      },
+      {
+        "title": "Bel de politie",
+        "eventName": "gcphone:autoCallNumber",
+        "type": {
+          "number": "911"
+        }
+      }
+    ]
+  },
+  {
+      "display": "Ambulance",
+      "backgroundColor": "red",
+      "icon": "/html/static/img/icons_app/lsfd.png",
+      "subMenu": [{
+        "title": "Stuur een bericht",
+        "eventName": "esx_addons_gcphone:call",
+        "type": {
+          "number": "ambulance"
+        }
+      }]
+    },
+    {
+      "display": "Wegenwacht",
+      "backgroundColor": "blue",
+      "icon": "/html/static/img/icons_app/wegenwacht.png",
+      "subMenu": [{
+        "title": "Stuur een bericht",
+        "eventName": "esx_addons_gcphone:call",
+        "type": {
+          "number": "mechanic"
+        }
+      }]
+    },
+    {
+      "display": "Taxi",
+      "backgroundColor": "blue",
+      "subMenu": [{
+        "title": "Stuur een bericht",
+        "eventName": "esx_addons_gcphone:call",
+        "type": {
+          "number": "taxi"
+        }
+      }]
+    }
+  ],
+
+  "defaultContacts": [{
+    "number": "ambulance",
+    "display": "Ambulance",
+    "backgroundColor": "red",
+    "icon": "/html/static/img/icons_app/lsfd.png"
+  },
+  {
+    "number": "police",
+    "display": "Politie",
+    "backgroundColor": "blue",
+    "icon": "/html/static/img/icons_app/policia.png"
+  },
+  {
+    "number": "mechanic",
+    "display": "Wegenwacht",
+    "backgroundColor": "blue",
+    "icon": "/html/static/img/icons_app/wegenwacht.png"
+
+  },
+  {
+    "number": "taxi",
+    "display": "Taxi",
+    "backgroundColor": "blue"
+  }
+],
+
+  "apps": [
+    {
+      "name": "Phone",
+      "fr_FR__name": "Telefoon",
+      "cs_CZ__name": "Telefoon",
+      "en_US__name": "Telefoon",
+      "de_DE__name": "Telefoon",
+      "pl_PL__name": "Telefoon",
+      "es_ES__name": "Telefoon",
+      "icons": "/html/static/img/icons_app/call.png",
+      "routeName": "appels",
+      "inHomePage": true
+    },
+
+
+    {
+      "name": "Contacts",
+      "fr_FR__name": "Contacten",
+      "en_US__name": "Contacten",
+      "cs_CZ__name": "Contacten",
+      "de_DE__name": "Contacten",
+      "pl_PL__name": "Contacten",
+      "es_ES__name": "Contacten",
+      "icons": "/html/static/img/icons_app/contacts.png",
+      "routeName": "contacts",
+      "inHomePage": false
+    },
+    {
+      "name": "Messages",
+      "fr_FR__name": "Berichten",
+      "en_US__name": "Berichten",
+      "cs_CZ__name": "Berichten",
+      "de_DE__name": "Berichten",
+      "pl_PL__name": "Berichten",
+      "es_ES__name": "Berichten",
+      "icons": "/html/static/img/icons_app/sms.png",
+      "routeName": "messages",
+      "inHomePage": true,
+      "puceRef": "nbMessagesUnread"
+    },
+    {
+      "name": "Settings",
+      "fr_FR__name": "Instellingen",
+      "en_US__name": "Instellingen",
+      "cs_CZ__name": "Instellingen",
+      "de_DE__name": "Instellingen",
+      "pl_PL__name": "Instellingen",
+      "es_ES__name": "Instellingen",
+      "icons": "/html/static/img/icons_app/settings.png",
+      "routeName": "parametre",
+      "inHomePage": false
+    },
+
+    {
+      "name": "Bank",
+      "fr_FR__name": "Bank",
+      "en_US__name": "Bank",
+      "cs_CZ__name": "Bank",
+      "de_DE__name": "Bank",
+      "pl_PL__name": "Bank",
+      "es_ES__name": "Bank",
+      "icons": "/html/static/img/icons_app/banco.png",
+      "routeName": "bank",
+      "inHomePage": false
+    },
+    {
+      "name": "Camera",
+      "fr_FR__name": "Camera",
+      "cs_CZ__name": "Camera",
+      "en_US__name": "Camera",
+      "de_DE__name": "Camera",
+      "pl_PL__name": "Camera",
+      "es_ES__name": "Cámara",
+      "icons": "/html/static/img/icons_app/photo.png",
+      "routeName": "photo"
+    }
+  ],
+  "defaultLanguage": "nl-NL",
+  "language": {
+      "nl-NL": {
+      "NAME": "Nederlands",
+      "PHONE_WARNING_MESSAGE": "Waarschuwing",
+      "PHONE_WARNING_MESSAGE_MESS": "Nieuw bericht",
+      "CONFIRM": "Doorgaan",
+      "CANCEL": "Annuleren",
+      "APP_CONFIG_TITLE": "Instellingen",
+      "APP_CONFIG_MY_MUNBER": "Mijn telefoonnummer",
+      "APP_CONFIG_WALLPAPER": "Achtergrond",
+      "APP_CONFIG_CASE": "Telefoonhoesje",
+      "APP_CONFIG_ZOOM": "In/Uitzoomen",
+      "APP_CONFIG_VOLUME": "Volume",
+      "APP_CONFIG_LANGUAGE": "Taal",
+      "APP_CONFIG_MOUSE_SUPPORT": "Muisbesturing",
+      "APP_CONFIG_RESET": "Formaat",
+      "APP_CONFIG_RESET_CONFIRM": "Verwijder alles",
+      "APP_PHONE_CALL": "Bellen",
+      "APP_PHONE_DELETE": "Verwijder",
+      "APP_PHONE_DELETE_ALL": "Verwijder alles",
+      "APP_PHONE_TITLE": "Telefoonnummer",
+      "APP_PHONE_MENU_FAVORITES": "Favorieten",
+      "APP_PHONE_MENU_RECENTS": "Recent",
+      "APP_PHONE_MENU_CONTACTS": "Contacten",
+      "APP_PHONE_ENTER_NUMBER": "Telefoonnummer toevoegen",
+      "APP_BANK_TITLE": "Bank",
+      "APP_BOURSE_TITLE": "Beurs",
+      "APP_CONTACT_TITLE": "Contactgegevens",
+      "APP_CONTACT_NEW": "Nieuw contact",
+      "APP_CONTACT_EDIT": "Bewerk contact",
+      "APP_CONTACT_SAVE": "Registratie",
+      "APP_CONTACT_CANCEL": "Annuleer",
+      "APP_CONTACT_DELETE": "Verwijder",
+      "APP_CONTACT_LABEL_NAME": "Voornaam - Naam",
+      "APP_CONTACT_LABEL_NUMBER": "Telfoonnummer",
+      "APP_MESSAGE_TITLE": "Nieuw bericht",
+      "APP_MESSAGE_NEW_MESSAGE": "Nieuw bericht",
+      "APP_MESSAGE_ERASE_CONVERSATION": "Verwijder gesprek",
+      "APP_MESSAGE_ERASE_ALL_CONVERSATIONS": "Verwijder alle gesprekken",
+      "APP_MESSAGE_SEND_GPS": "Stuur GPS locatie",
+      "APP_MESSAGE_SET_GPS": "GPS locatie",
+      "APP_MESSAGE_ZOOM_IMG": "Vergroten",
+      "APP_MESSAGE_DELETE": "Verwijder",
+      "APP_MESSAGE_SMS": "Textbericht",
+      "APP_MESSAGE_CONTACT_TITLE": "Contacten",
+      "APP_MESSAGE_CONTRACT_ENTER_NUMBER": "Telefoonnummer toevoegen",
+      "APP_MESSAGE_PLACEHOLDER_ENTER_MESSAGE": "Verstuur een bericht",
+      "APP_DARKTCHAT_TITLE": "Donkere chat",
+      "APP_DARKTCHAT_NEW_CHANNEL": "Voeg een kanaal toe",
+      "APP_DARKTCHAT_DELETE_CHANNEL": "Verwijder het kanaal",
+      "APP_DARKTCHAT_CANCEL": "Annuleer",
+      "APP_DARKTCHAT_PLACEHOLDER_ENTER_MESSAGE": "Type een bericht",
+      "APP_TWITTER_NAME": "Twitter",
+      "APP_TWITTER_VIEW_TWITTER": "Twitter",
+      "APP_TWITTER_VIEW_TOP_TWEETS": "Top tweets",
+      "APP_TWITTER_VIEW_TWEETER": "Tweets",
+      "APP_TWITTER_VIEW_SETTING": "instellingen",
+      "APP_TWITTER_NEW_ACCOUNT_USERNAME": "Gebruikersnaam (>= 4)",
+      "APP_TWITTER_NEW_ACCOUNT_PASSWORD": "Wachtwoord (>= 6)",
+      "APP_TWITTER_NEW_ACCOUNT_PASSWORD_CONFIRM": "Confirmeer wachtwoord",
+      "APP_TWITTER_NEW_ACCOUNT_AVATAR": "URL van je profielfoto",
+      "APP_TWITTER_PLACEHOLDER_MESSAGE": "Wat is er met je aan de hand?",
+      "APP_TWITTER_BUTTON_ACTION_TWEETER": "Tweeter",
+      "APP_TWITTER_ACCOUNT_LOGIN": "Log in op de website",
+      "APP_TWITTER_ACCOUNT_LOGOUT": "Disconnect van locatie",
+      "APP_TWITTER_ACCOUNT_PARAM": "Mijn account",
+      "APP_TWITTER_ACCOUNT_AVATAR": "Profielfoto aan het veranderen",
+      "APP_TWITTER_ACCOUNT_CHANGE_PASSWORD": "Verander wachtwoord",
+      "APP_TWITTER_ACCOUNT_NEW": "Nieuw account",
+      "APP_TWIITER_ACCOUNT_SAVE": "Registratie",
+      "APP_TWIITER_ACCOUNT_CREATE": "Maak een account",
+      "APP_TWIITER_ACCOUNT_CANCEL": "Annuleer",
+      "APP_TWITTER_ACCOUNT_USERNAME": "gebruiksersnaam",
+      "APP_TWITTER_ACCOUNT_PASSWORD": "wachtwoord",
+      "APP_TWITTER_NOTIFICATION": "Berichten",
+      "APP_TWITTER_NOTIFICATION_WHEN": "Berichten ontvangen",
+      "APP_TWITTER_NOTIFICATION_ALL": "Alle berichten",
+      "APP_TWITTER_NOTIFICATION_MENTION": "Alleen tags",
+      "APP_TWITTER_NOTIFICATION_NEVER": "Niemand",
+      "APP_TWITTER_NOTIFICATION_SOUND": "Speel een geluid",
+      "APP_TWITTER_NOTIFICATION_SOUND_YES": "Ja",
+      "APP_TWITTER_NOTIFICATION_SOUND_NO": "Nee",
+      "APP_TWITTER_NOTIF_ACCOUNT_CREATE_SUCCESS": "Je Twitter account is gemaakt.",
+      "APP_TWITTER_NOTIF_ACCOUNT_CREATE_ERROR": "Je Twitter account kon niet gemaakt worden. (Gebruiksersnaam al in gebruik?)",
+      "APP_TWITTER_NOTIF_LOGIN_SUCCESS": "Je bent verbonden met Twitter.",
+      "APP_TWITTER_NOTIF_LOGIN_ERROR": "Ongeldig account / wachtwoord",
+      "APP_TWITTER_NOTIF_AVATAR_SUCCESS": "Je profielfoto is veranderd!",
+      "APP_TWITTER_NOTIF_NEW_PASSWORD_SUCCESS": "Je wachtwoord is veranderd.",
+      "APP_TWITTER_NOTIF_NEW_PASSWORD_ERROR": "Je wachtwoord kon niet worden veranderd.",
+      "APP_TWITTER_NOTIF_NEW_PASSWORD_MISS_MATCH": "Wachtwoorden komen niet overeen",
+      "APP_TWITTER_NOTIF_NEW_PASSWORD_LENGTH_ERROR": "Wachtwoord te kort",
+      "APP_DARKTCHAT_NEW_NOTE": "Voeg notitie toe",
+      "APP_DARKTCHAT_DELETE_NOTE": "Verwijder notitie toe",
+      "APP_MESSAGE_SEND_PHOTO": "Maak foto",
+      "APP_BANK_TITLE_BALANCE": "SALDO:",
+      "APP_BANK_BUTTON_CANCEL": "Annuleer",
+      "APP_BANK_BUTTON_TRANSFER": "Overboeken",
+      "APP_BANK_BUTTON_TRANSACT": "SALDO:",
+      "APP_CONFIG_SOUND": "Geluid",
+
+      "TIMEAGO": [
+        "Zojuist",
+        ["%s seconden geleden", "%s seconden geleden"],
+        ["%s minuten geleden", "%s minuten geleden"],
+        ["%s uur geleden", "%s uur geleden"],
+        ["%s dag geleden", "%s dag geleden"],
+        ["%s week(en) geleden", "%s week(en) geleden"],
+        ["%s maand(en) geleden", "%s maand(en) geleden"],
+        ["%s jaar geleden", "%s jaar geleden"]
+      ]
+    }
+  }
+}

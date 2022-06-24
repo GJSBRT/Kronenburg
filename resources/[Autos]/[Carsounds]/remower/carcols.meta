@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CVehicleModelInfoVarGlobal>
+	<Kits>
+			<Item>
+				<kitName>593_remower_modkit</kitName>
+				<id value="593" />	 	  
+				<kitType>MKT_SPECIAL</kitType>
+				<visibleMods>
+					<Item>
+						<modelName>rrocket_blower_a</modelName>
+						<modShopLabel>GAU3_HOODK</modShopLabel>
+						<linkedModels />         
+						<turnOffBones>
+							<Item>misc_a</Item>
+							<Item>misc_b</Item>
+						</turnOffBones> 
+						<type>VMT_CHASSIS</type>
+						<bone>engineblock</bone>
+						<collisionBone>chassis</collisionBone>
+						<cameraPos>VMCP_DEFAULT</cameraPos>
+						<audioApply value="1.000000" />
+						<weight value="20" />
+						<turnOffExtra value="false" />
+						<disableBonnetCamera value="false" />
+						<allowBonnetSlide value="true" />
+					</Item>
+					<Item>
+						<modelName>rrocket_blower_b</modelName>
+						<modShopLabel>RROCKET_BLOWA</modShopLabel>
+						<linkedModels />    
+						<turnOffBones>
+							<Item>misc_a</Item>
+							<Item>misc_b</Item>
+						</turnOffBones> 
+						<type>VMT_CHASSIS</type>
+						<bone>engineblock</bone>
+						<collisionBone>chassis</collisionBone>
+						<cameraPos>VMCP_DEFAULT</cameraPos>
+						<audioApply value="1.000000" />
+						<weight value="20" />
+						<turnOffExtra value="false" />
+						<disableBonnetCamera value="false" />
+						<allowBonnetSlide value="true" />
+					</Item>
+					<Item>
+						<modelName>rrocket_blower_c</modelName>
+						<modShopLabel>GAU3_HOODM</modShopLabel>
+						<linkedModels />    
+						<turnOffBones>
+							<Item>misc_a</Item>
+							<Item>misc_b</Item>
+						</turnOffBones> 
+						<type>VMT_CHASSIS</type>
+						<bone>engineblock</bone>
+						<collisionBone>chassis</collisionBone>
+						<cameraPos>VMCP_DEFAULT</cameraPos>
+						<audioApply value="1.000000" />
+						<weight value="20" />
+						<turnOffExtra value="false" />
+						<disableBonnetCamera value="false" />
+						<allowBonnetSlide value="true" />
+					</Item>
+					<Item>
+						<modelName>rrocket_blower_d</modelName>
+						<modShopLabel>GAU3_HOODN</modShopLabel>
+						<linkedModels>
+							<Item>rrocket_butterfly</Item>
+						</linkedModels>    
+						<turnOffBones>
+							<Item>misc_a</Item>
+							<Item>misc_b</Item>
+						</turnOffBones> 
+						<type>VMT_CHASSIS</type>
+						<bone>engineblock</bone>
+						<collisionBone>chassis</collisionBone>
+						<cameraPos>VMCP_DEFAULT</cameraPos>
+						<audioApply value="1.000000" />
+						<weight value="20" />
+						<turnOffExtra value="false" />
+						<disableBonnetCamera value="false" />
+						<allowBonnetSlide value="true" />
+					</Item>
+				</visibleMods>
+				<linkMods />
+				<statMods />
+				<slotNames />
+				<liveryNames />
+			</Item>
+	</Kits>
+</CVehicleModelInfoVarGlobal>

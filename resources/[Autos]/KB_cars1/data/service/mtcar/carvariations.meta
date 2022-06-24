@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<CVehicleModelInfoVariation>
+  <variationData>	<Item>
+      <modelName>mtcar</modelName>
+      <colors>
+		<Item> <!-- nobel white --> 
+          <indices content="char_array">
+            134
+            134
+            134
+            156
+            7
+            111
+          </indices>
+          <liveries>
+          </liveries>
+        </Item>
+      </colors>
+      <windowsWithExposedEdges />
+      <plateProbabilities>
+        <Probabilities>
+          <Item>
+            <Name>Standard Black</Name>
+            <Value value="80"/>
+          </Item>
+          <Item>
+            <Name>White Plate 2</Name>
+            <Value value="20"/>
+          </Item>
+        </Probabilities>
+      </plateProbabilities>
+      <lightSettings value="0" />
+      <sirenSettings value="0" />
+    </Item> 
+  </variationData>
+</CVehicleModelInfoVariation>

@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CVehicleModelInfoVariation>
+	<variationData> 
+		<Item>
+			<modelName>remower</modelName>
+     <colors>
+        <Item>
+          <indices>
+            <Item value="52" />
+            <Item value="0" />
+            <Item value="51" />
+            <Item value="156" />
+            <Item value="0" />
+            <Item value="0" />
+          </indices>
+					<liveries>
+						<Item value="true" />
+						<Item value="false" />
+						<Item value="false" />
+						<Item value="false" />
+					</liveries>
+        </Item>
+        <Item>
+          <indices>
+            <Item value="43" />
+            <Item value="0" />
+            <Item value="43" />
+            <Item value="156" />
+            <Item value="0" />
+            <Item value="0" />
+          </indices>
+					<liveries>
+						<Item value="true" />
+						<Item value="false" />
+						<Item value="false" />
+						<Item value="false" />
+					</liveries>
+        </Item>
+        <Item>
+          <indices>
+            <Item value="73" />
+            <Item value="0" />
+            <Item value="74" />
+            <Item value="156" />
+            <Item value="0" />
+            <Item value="0" />
+          </indices>
+					<liveries>
+						<Item value="true" />
+						<Item value="false" />
+						<Item value="false" />
+						<Item value="false" />
+					</liveries>
+        </Item>
+        <Item>
+          <indices>
+            <Item value="61" />
+            <Item value="0" />
+            <Item value="61" />
+            <Item value="156" />
+            <Item value="0" />
+            <Item value="0" />
+          </indices>
+					<liveries>
+						<Item value="true" />
+						<Item value="false" />
+						<Item value="false" />
+						<Item value="false" />
+					</liveries>
+        </Item>
+        <Item>
+          <indices>
+            <Item value="53" />
+            <Item value="0" />
+            <Item value="61" />
+            <Item value="156" />
+            <Item value="0" />
+            <Item value="0" />
+          </indices>
+					<liveries>
+						<Item value="true" />
+						<Item value="true" />
+						<Item value="true" />
+						<Item value="false" />
+					</liveries>
+        </Item>
+        <Item>
+          <indices>
+            <Item value="0" />
+            <Item value="0" />
+            <Item value="61" />
+            <Item value="156" />
+            <Item value="0" />
+            <Item value="0" />
+          </indices>
+					<liveries>
+						<Item value="true" />
+						<Item value="false" />
+						<Item value="false" />
+						<Item value="true" />
+					</liveries>
+        </Item>
+      </colors>
+			<kits>
+				<Item>593_remower_modkit</Item>
+			</kits>
+			<windowsWithExposedEdges />
+			<plateProbabilities>
+				<Probabilities>
+					<Item>
+						<Name>standard white</Name>
+						<Value value="80" />
+					</Item>
+					<Item>
+						<Name>white plate 2</Name>
+						<Value value="20" />
+					</Item>
+				</Probabilities>
+			</plateProbabilities>
+			<lightSettings value="0" />
+			<sirenSettings value="0" />
+		</Item>
+	</variationData>
+</CVehicleModelInfoVariation>
