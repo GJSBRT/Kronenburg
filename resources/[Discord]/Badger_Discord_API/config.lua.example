@@ -1,0 +1,18 @@
+Config = {
+	Guild_ID = '897747224635801630',
+	Bot_Token = 'token',
+	RoleList = {
+		['Server Booster'] = 900750584418795542,
+		['skateboard'] = 981146692973903882,
+	},
+}
+
+Config.Splash = {
+	Header_IMG = 'https://cdn.discordapp.com/attachments/856663923260129290/856971751098941481/standard_4.gif',
+	Enabled = false,
+	Wait = 3, -- How many seconds should splash page be shown for? (Max is 12)
+	Heading1 = "Welkom op Kronenburg Roleplay",
+	Heading2 = "Join ook onze Discord server!",
+	Discord_Link = 'https://dsc.gg/kronenburg',
+	Website_Link = 'https://kronenburgrp.nl',
+}
