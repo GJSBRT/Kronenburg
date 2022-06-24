@@ -1,0 +1,52 @@
+INSERT INTO `jobs` (`name`, `label`) VALUES ('casino', 'Casino');
+INSERT INTO `jobs` (`name`, `label`) VALUES ('offcasino', 'Casino');
+
+INSERT INTO `job_grades` (`job_name`, `grade`, `name`, `label`, `salary`, `skin_male`, `skin_female`) VALUES ('casino', 0, 'barstaff', 'Uit dienst', 0, '{}', '{}');
+INSERT INTO `job_grades` (`job_name`, `grade`, `name`, `label`, `salary`, `skin_male`, `skin_female`) VALUES ('casino', 1, 'barstaff', 'Uit dienst', 0, '{}', '{}');
+INSERT INTO `job_grades` (`job_name`, `grade`, `name`, `label`, `salary`, `skin_male`, `skin_female`) VALUES ('casino', 2, 'security', 'Uit dienst', 0, '{}', '{}');
+INSERT INTO `job_grades` (`job_name`, `grade`, `name`, `label`, `salary`, `skin_male`, `skin_female`) VALUES ('casino', 3, 'security', 'Uit dienst', 0, '{}', '{}');
+INSERT INTO `job_grades` (`job_name`, `grade`, `name`, `label`, `salary`, `skin_male`, `skin_female`) VALUES ('casino', 4, 'security', 'Uit dienst', 0, '{}', '{}');
+INSERT INTO `job_grades` (`job_name`, `grade`, `name`, `label`, `salary`, `skin_male`, `skin_female`) VALUES ('casino', 5, 'staff', 'Uit dienst', 0, '{}', '{}');
+INSERT INTO `job_grades` (`job_name`, `grade`, `name`, `label`, `salary`, `skin_male`, `skin_female`) VALUES ('casino', 6, 'manager', 'Uit dienst', 0, '{}', '{}');
+INSERT INTO `job_grades` (`job_name`, `grade`, `name`, `label`, `salary`, `skin_male`, `skin_female`) VALUES ('casino', 7, 'boss', 'Uit dienst', 0, '{}', '{}');
+
+INSERT INTO `job_grades` (`job_name`, `grade`, `name`, `label`, `salary`, `skin_male`, `skin_female`) VALUES ('offcasino', 0, 'barstaff', 'Uit dienst', 0, '{}', '{}');
+INSERT INTO `job_grades` (`job_name`, `grade`, `name`, `label`, `salary`, `skin_male`, `skin_female`) VALUES ('offcasino', 1, 'barstaff', 'Uit dienst', 0, '{}', '{}');
+INSERT INTO `job_grades` (`job_name`, `grade`, `name`, `label`, `salary`, `skin_male`, `skin_female`) VALUES ('offcasino', 2, 'security', 'Uit dienst', 0, '{}', '{}');
+INSERT INTO `job_grades` (`job_name`, `grade`, `name`, `label`, `salary`, `skin_male`, `skin_female`) VALUES ('offcasino', 3, 'security', 'Uit dienst', 0, '{}', '{}');
+INSERT INTO `job_grades` (`job_name`, `grade`, `name`, `label`, `salary`, `skin_male`, `skin_female`) VALUES ('offcasino', 4, 'security', 'Uit dienst', 0, '{}', '{}');
+INSERT INTO `job_grades` (`job_name`, `grade`, `name`, `label`, `salary`, `skin_male`, `skin_female`) VALUES ('offcasino', 5, 'staff', 'Uit dienst', 0, '{}', '{}');
+INSERT INTO `job_grades` (`job_name`, `grade`, `name`, `label`, `salary`, `skin_male`, `skin_female`) VALUES ('offcasino', 6, 'manager', 'Uit dienst', 0, '{}', '{}');
+INSERT INTO `job_grades` (`job_name`, `grade`, `name`, `label`, `salary`, `skin_male`, `skin_female`) VALUES ('offcasino', 7, 'boss', 'Uit dienst', 0, '{}', '{}');
+
+
+INSERT INTO items (`name`, label, weight, rare, can_remove) VALUES ('ice', 'Ijsblokjes', 1, 0, 1);
+INSERT INTO items (`name`, label, weight, rare, can_remove) VALUES ('energy', 'Energiedrank', 1, 0, 1);
+INSERT INTO items (`name`, label, weight, rare, can_remove) VALUES ('limonade', 'Limonade', 1, 0, 1);
+INSERT INTO items (`name`, label, weight, rare, can_remove) VALUES ('soda', 'Frisdrank', 1, 0, 1);
+INSERT INTO items (`name`, label, weight, rare, can_remove) VALUES ('whisky', 'Whiskey', 1, 0, 1);
+INSERT INTO items (`name`, label, weight, rare, can_remove) VALUES ('jager', 'Jägermeister', 1, 0, 1);
+INSERT INTO items (`name`, label, weight, rare, can_remove) VALUES ('vodka', 'Vodka', 1, 0, 1);
+INSERT INTO items (`name`, label, weight, rare, can_remove) VALUES ('jusfruit', 'Fruitsap', 1, 0, 1);
+INSERT INTO items (`name`, label, weight, rare, can_remove) VALUES ('rhum', 'Rum', 1, 0, 1);
+INSERT INTO items (`name`, label, weight, rare, can_remove) VALUES ('tequila', 'Tequila', 1, 0, 1);
+INSERT INTO items (`name`, label, weight, rare, can_remove) VALUES ('menthe', 'Mint', 1, 0, 1);
+INSERT INTO items (`name`, label, weight, rare, can_remove) VALUES ('bolcacahuetes', 'Pindanootjes', 1, 0, 1);
+INSERT INTO items (`name`, label, weight, rare, can_remove) VALUES ('bolnoixcajou', 'Cashewnootjes', 1, 0, 1);
+INSERT INTO items (`name`, label, weight, rare, can_remove) VALUES ('bolpistache', 'Pistachenootjes', 1, 0, 1);
+INSERT INTO items (`name`, label, weight, rare, can_remove) VALUES ('bolchips', 'Chips', 1, 0, 1);
+INSERT INTO items (`name`, label, weight, rare, can_remove) VALUES ('jagerbomb', 'Jägerbom', 1, 0, 1);
+INSERT INTO items (`name`, label, weight, rare, can_remove) VALUES ('golem', 'Golem', 1, 0, 1);
+INSERT INTO items (`name`, label, weight, rare, can_remove) VALUES ('whiskeycoca', 'Whiskeycoca', 1, 0, 1);
+INSERT INTO items (`name`, label, weight, rare, can_remove) VALUES ('rhumcoca', 'Rhumcoca', 1, 0, 1);
+INSERT INTO items (`name`, label, weight, rare, can_remove) VALUES ('vodkaenery', 'Vodkaenergy', 1, 0, 1);
+INSERT INTO items (`name`, label, weight, rare, can_remove) VALUES ('vodkafruit', 'Vodkafruit', 1, 0, 1);
+INSERT INTO items (`name`, label, weight, rare, can_remove) VALUES ('rhumfruit', 'Rhumfruit', 1, 0, 1);
+INSERT INTO items (`name`, label, weight, rare, can_remove) VALUES ('teqpaf', 'Teqpaf', 1, 0, 1);
+INSERT INTO items (`name`, label, weight, rare, can_remove) VALUES ('mojito', 'Mojito', 1, 0, 1);
+INSERT INTO items (`name`, label, weight, rare, can_remove) VALUES ('mixapero', 'Nootjesmix', 1, 0, 1);
+INSERT INTO items (`name`, label, weight, rare, can_remove) VALUES ('metreshooter', 'Meterschieter', 1, 0, 1);
+INSERT INTO items (`name`, label, weight, rare, can_remove) VALUES ('jagercerbere', 'Jägercerbere', 1, 0, 1);
+
+
+Betaalde casino chips, daarvan gaat 5% naar de casino-eigenaar.
