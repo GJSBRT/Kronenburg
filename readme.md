@@ -1,4 +1,4 @@
-![Logo](https://cdn.discordapp.com/attachments/925533563946954752/935297453358477392/kronenburg.png)
+![Logo](https://cdn.discordapp.com/attachments/925533563946954752/935297453358477392/kronenburg.png)<br/>
 Welkom bij de Kronenburg Roleplay repo. Hier zul je alle bestanden vinden die kronenburg maken.
 
 
