@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    
+<CVehicleModelInfoVarGlobal>
+  <Kits>
+	<Item>
+      <kitName>871_sr71b_modkit</kitName>
+      <id value="871" />
+      <kitType>MKT_SPECIAL</kitType>
+      <visibleMods>
+        <Item>
+          <modelName>nasa_tail_l</modelName>
+          <modShopLabel>NASA</modShopLabel>
+          <linkedModels>
+            <Item>nasa_tail_r</Item>
+          </linkedModels>
+          <turnOffBones>
+            <Item>mod_a</Item>
+			<Item>mod_b</Item>
+			<Item>mod_c</Item>
+			<Item>mod_d</Item>
+			<Item>mod_e</Item>
+          </turnOffBones>
+          <type>VMT_CHASSIS</type>
+          <bone>mod_d</bone>
+          <collisionBone>chassis</collisionBone>
+          <cameraPos>VMCP_DEFAULT</cameraPos>
+          <audioApply value="1.000000" />
+          <weight value="20" />
+          <turnOffExtra value="false" />
+          <disableBonnetCamera value="false" />
+          <allowBonnetSlide value="true" />
+		  		<weaponSlot />
+        </Item>
+		</visibleMods>
+	  <linkMods>
+		<Item>
+          <modelName>nasa_tail_r</modelName>
+          <bone>mod_e</bone>
+          <turnOffExtra value="false" />
+        </Item>
+	  </linkMods>
+      <slotNames>      
+        <Item>
+          <slot>VMT_CHASSIS</slot>
+          <name>NASA</name>
+        </Item>
+      </slotNames>
+      <statMods>
+        <Item>
+          <identifier />
+          <modifier value="25" />
+          <audioApply value="1.000000" />
+          <weight value="20" />
+          <type>VMT_ENGINE</type>
+        </Item>
+        <Item>
+          <identifier />
+          <modifier value="50" />
+          <audioApply value="1.000000" />
+          <weight value="20" />
+          <type>VMT_ENGINE</type>
+        </Item>
+        <Item>
+          <identifier />
+          <modifier value="75" />
+          <audioApply value="1.000000" />
+          <weight value="20" />
+          <type>VMT_ENGINE</type>
+        </Item>
+        <Item>
+          <identifier />
+          <modifier value="100" />
+          <audioApply value="1.000000" />
+          <weight value="20" />
+          <type>VMT_ENGINE</type>
+        </Item>
+        <Item>
+          <identifier />
+          <modifier value="25" />
+          <audioApply value="1.000000" />
+          <weight value="5" />
+          <type>VMT_BRAKES</type>
+        </Item>
+        <Item>
+          <identifier />
+          <modifier value="65" />
+          <audioApply value="1.000000" />
+          <weight value="5" />
+          <type>VMT_BRAKES</type>
+        </Item>
+        <Item>
+          <identifier />
+          <modifier value="100" />
+          <audioApply value="1.000000" />
+          <weight value="5" />
+          <type>VMT_BRAKES</type>
+        </Item>
+        <Item>
+          <identifier />
+          <modifier value="20" />
+          <audioApply value="1.000000" />
+          <weight value="0" />
+          <type>VMT_ARMOUR</type>
+        </Item>
+        <Item>
+          <identifier />
+          <modifier value="40" />
+          <audioApply value="1.000000" />
+          <weight value="10" />
+          <type>VMT_ARMOUR</type>
+        </Item>
+        <Item>
+          <identifier />
+          <modifier value="60" />
+          <audioApply value="1.000000" />
+          <weight value="20" />
+          <type>VMT_ARMOUR</type>
+        </Item>
+        <Item>
+          <identifier />
+          <modifier value="80" />
+          <audioApply value="1.000000" />
+          <weight value="30" />
+          <type>VMT_ARMOUR</type>
+        </Item>
+        <Item>
+          <identifier />
+          <modifier value="100" />
+          <audioApply value="1.000000" />
+          <weight value="40" />
+          <type>VMT_ARMOUR</type>
+        </Item>  
+      </statMods>
+      <slotNames>      
+        <Item>
+          <slot>VMT_CHASSIS</slot>
+          <name>NASA</name>
+        </Item>
+      </slotNames>
+      <liveryNames />
+    </Item>
+  </Kits> 
+    <Lights />
+</CVehicleModelInfoVarGlobal>

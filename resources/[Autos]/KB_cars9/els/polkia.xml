@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- ELS VEHICLE CONFIGURATION FILE -->
+<vcfroot Description="MB ME Bus" Author="Heuuu-Yatsie" >
+	<!-- INTERFACE -->
+	<INTERFACE>
+		<LstgActivationType>euro</LstgActivationType>
+		<DefaultSirenMode>standby</DefaultSirenMode>
+		<InfoPanelHeaderColor>grey</InfoPanelHeaderColor>
+		<InfoPanelButtonLightColor>orange</InfoPanelButtonLightColor>
+	</INTERFACE>
+	<!-- EXTRAS OVERRIDE AND ENV LIGHTING-->
+	<EOVERRIDE>	
+		<Extra01 IsElsControlled="true" AllowEnvLight="true" Color="blue" OffsetX="-0.70" OffsetY="-0.20" OffsetZ="0.50" />
+		<Extra02 IsElsControlled="true" AllowEnvLight="true" Color="blue" OffsetX="-0.25" OffsetY="-0.20" OffsetZ="0.50" />
+		<Extra03 IsElsControlled="true" AllowEnvLight="true" Color="blue" OffsetX="0.25" OffsetY="-0.20" OffsetZ="0.50" />
+		<Extra04 IsElsControlled="true" AllowEnvLight="true" Color="blue" OffsetX="0.70" OffsetY="-0.20" OffsetZ="0.50" />
+		<Extra05 IsElsControlled="true" AllowEnvLight="true" Color="amber" OffsetX="-0.70" OffsetY="-0.20" OffsetZ="0.50" />
+		<Extra06 IsElsControlled="true" AllowEnvLight="true" Color="amber" OffsetX="0.70" OffsetY="-0.20" OffsetZ="0.50" />
+		<Extra07 IsElsControlled="true" AllowEnvLight="true" Color="amber" OffsetX="-0.40" OffsetY="-0.80" OffsetZ="0.40" />
+		<Extra08 IsElsControlled="true" AllowEnvLight="true" Color="amber" OffsetX="0.00" OffsetY="-0.80" OffsetZ="0.40" />
+		<Extra09 IsElsControlled="true" AllowEnvLight="true" Color="amber" OffsetX="0.40" OffsetY="-0.80" OffsetZ="0.40" />
+		<Extra10 IsElsControlled="true" />
+		<Extra11 IsElsControlled="true" />
+		<Extra12 IsElsControlled="true" />
+	</EOVERRIDE>
+	<!-- MISC -->
+	<MISC>
+		<VehicleIsSlicktop>false</VehicleIsSlicktop>
+		<ArrowboardType>off</ArrowboardType>
+		<UseSteadyBurnLights>false</UseSteadyBurnLights>
+		<DfltSirenLtsActivateAtLstg>3</DfltSirenLtsActivateAtLstg>
+		<Takedowns AllowUse="true" Mirrored="true" />
+		<SceneLights AllowUse="true" IlluminateSidesOnly="true" />	
+	</MISC>
+	<!-- CRUISE -->
+	<CRUISE>
+		<DisableAtLstg3>true</DisableAtLstg3>
+		<UseExtras Extra1="true" Extra2="false" Extra3="false" Extra4="true" />
+	</CRUISE>
+	<!-- AUX CORONAS -->
+	<ACORONAS>
+		<Headlights DfltPattern="0" ColorL="white" ColorR="white" />
+		<TailLights DfltPattern="0" ColorL="red" ColorR="red" />
+		<IndicatorsF DfltPattern="0" ColorL="white" ColorR="white" />
+		<IndicatorsB DfltPattern="0" ColorL="red" ColorR="red" />
+		<ReverseLights DfltPattern="0" ColorL="white" ColorR="white" />
+	</ACORONAS>
+	<!-- SOUNDS -->
+	<SOUNDS>
+		<MainHorn InterruptsSiren="true" AudioString="SIRENS_AIRHORN" />
+		<ManTone1 AllowUse="true" AudioString="VEHICLES_HORNS_SIREN_1" />
+		<ManTone2 AllowUse="true" AudioString="VEHICLES_HORNS_SIREN_2" />
+		<SrnTone1 AllowUse="true" AudioString="VEHICLES_HORNS_SIREN_1" />
+		<SrnTone2 AllowUse="true" AudioString="VEHICLES_HORNS_SIREN_2" />
+		<SrnTone3 AllowUse="false" AudioString="VEHICLES_HORNS_POLICE_WARNING" />
+		<SrnTone4 AllowUse="false" AudioString="VEHICLES_HORNS_AMBULANCE_WARNING" />
+		<AuxSiren AllowUse="false" AudioString="VEHICLES_HORNS_SIREN_1" />
+		<PanicMde AllowUse="false" AudioString="VEHICLES_HORNS_POLICE_WARNING" />
+	</SOUNDS>
+	<!-- WRNL -->
+	<WRNL LightingFormat="leds" DisableAtLstg3="true" >
+		<PresetPatterns>
+			<Lstg3 Enabled="true" Pattern="000" />
+		</PresetPatterns>
+		<ForcedPatterns>
+			<MainHorn Enabled="false" Pattern="0" />
+			<SrnTone1 Enabled="false" Pattern="0" />
+			<SrnTone2 Enabled="false" Pattern="0" />
+			<SrnTone3 Enabled="false" Pattern="0" />
+			<SrnTone4 Enabled="false" Pattern="0" />
+			<PanicMde Enabled="false" Pattern="0" />
+			<OutOfVeh Enabled="false" Pattern="0" />
+		</ForcedPatterns>
+		<ScanPatternCustomPool Enabled="false" Sequential="true" >
+			<Pattern>0</Pattern>
+			<Pattern>0</Pattern>
+			<Pattern>0</Pattern>
+		</ScanPatternCustomPool>
+	</WRNL>
+	<!-- PRML -->
+	<PRML LightingFormat="leds" ExtrasActiveAtLstg2="1and4" >
+		<PresetPatterns>
+			<Lstg2 Enabled="true" Pattern="002" />
+			<Lstg3 Enabled="true" Pattern="002" />
+		</PresetPatterns>
+		<ForcedPatterns>
+			<MainHorn Enabled="false" Pattern="0" />
+			<SrnTone1 Enabled="false" Pattern="0" />
+			<SrnTone2 Enabled="false" Pattern="0" />
+			<SrnTone3 Enabled="false" Pattern="0" />
+			<SrnTone4 Enabled="false" Pattern="0" />
+			<PanicMde Enabled="false" Pattern="0" />
+			<OutOfVeh Enabled="false" Pattern="0" />
+		</ForcedPatterns>
+		<ScanPatternCustomPool Enabled="false" Sequential="true">
+			<Pattern>0</Pattern>
+			<Pattern>0</Pattern>
+			<Pattern>0</Pattern>
+		</ScanPatternCustomPool>
+	</PRML>
+	<!-- SECL -->
+	<SECL LightingFormat="leds" DisableAtLstg3="true" >
+		<PresetPatterns>
+			<Lstg1 Enabled="true" Pattern="012" />
+			<Lstg2 Enabled="true" Pattern="012" />
+			<Lstg3 Enabled="true" Pattern="012" />
+		</PresetPatterns>
+		<ForcedPatterns>
+			<MainHorn Enabled="false" Pattern="0" />
+			<SrnTone1 Enabled="false" Pattern="0" />
+			<SrnTone2 Enabled="false" Pattern="0" />
+			<SrnTone3 Enabled="false" Pattern="0" />
+			<SrnTone4 Enabled="false" Pattern="0" />
+			<PanicMde Enabled="false" Pattern="0" />
+			<OutOfVeh Enabled="false" Pattern="0" />
+		</ForcedPatterns>
+		<ScanPatternCustomPool Enabled="false" Sequential="true" >
+			<Pattern>0</Pattern>
+			<Pattern>0</Pattern>
+			<Pattern>0</Pattern>
+		</ScanPatternCustomPool>
+	</SECL>
+</vcfroot>
+<ArrayOfPattern xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Pattern Name="Left-Right Very Slow">
+    <Stages>
+      <Stage>
+        <Type>LeftHeadlight LeftTailLight LeftBrakeLight</Type>
+        <Milliseconds>2100</Milliseconds>
+      </Stage>
+      <Stage>
+        <Type>All</Type>
+        <Milliseconds>2100</Milliseconds>
+      </Stage>
+      <Stage>
+        <Type>RightHeadlight RightTailLight RightBrakeLight</Type>
+        <Milliseconds>2100</Milliseconds>
+      </Stage>
+      <Stage>
+        <Type>All</Type>
+        <Milliseconds>2100</Milliseconds>
+      </Stage>
+    </Stages>
+  </Pattern>
+  <Pattern Name="Left-Right Slow">
+    <Stages>
+      <Stage>
+        <Type>LeftHeadlight LeftTailLight LeftBrakeLight</Type>
+        <Milliseconds>210</Milliseconds>
+      </Stage>
+      <Stage>
+        <Type>All</Type>
+        <Milliseconds>210</Milliseconds>
+      </Stage>
+      <Stage>
+        <Type>RightHeadlight RightTailLight RightBrakeLight</Type>
+        <Milliseconds>210</Milliseconds>
+      </Stage>
+      <Stage>
+        <Type>All</Type>
+        <Milliseconds>210</Milliseconds>
+      </Stage>
+    </Stages>
+  </Pattern>
+  <Pattern Name="Left-Right Slow 2">
+    <Stages>
+      <Stage>
+        <Type>LeftHeadlight LeftTailLight LeftBrakeLight</Type>
+        <Milliseconds>210</Milliseconds>
+      </Stage>
+      <Stage>
+        <Type>None</Type>
+        <Milliseconds>180</Milliseconds>
+      </Stage>
+      <Stage>
+        <Type>LeftHeadlight LeftTailLight LeftBrakeLight</Type>
+        <Milliseconds>210</Milliseconds>
+      </Stage>
+      <Stage>
+        <Type>All</Type>
+        <Milliseconds>260</Milliseconds>
+      </Stage>
+      <Stage>
+        <Type>RightHeadlight RightTailLight RightBrakeLight</Type>
+        <Milliseconds>210</Milliseconds>
+      </Stage>
+      <Stage>
+        <Type>None</Type>
+        <Milliseconds>180</Milliseconds>
+      </Stage>
+      <Stage>
+        <Type>RightHeadlight RightTailLight RightBrakeLight</Type>
+        <Milliseconds>210</Milliseconds>
+      </Stage>
+      <Stage>
+        <Type>All</Type>
+        <Milliseconds>260</Milliseconds>
+      </Stage>
+    </Stages>
+  </Pattern>
+  <Pattern Name="Both Slow">
+    <Stages>
+      <Stage>
+        <Type>None</Type>
+        <Milliseconds>230</Milliseconds>
+      </Stage>
+      <Stage>
+        <Type>LeftHeadlight RightHeadlight LeftBrakeLight RightBrakeLight</Type>
+        <Milliseconds>230</Milliseconds>
+      </Stage>
+      <Stage>
+        <Type>None</Type>
+        <Milliseconds>230</Milliseconds>
+      </Stage>
+      <Stage>
+        <Type>LeftHeadlight RightHeadlight LeftTailLight RightTailLight</Type>
+        <Milliseconds>230</Milliseconds>
+      </Stage>
+    </Stages>
+  </Pattern>
+  <Pattern Name="Both Fast">
+    <Stages>
+      <Stage>
+        <Type>None</Type>
+        <Milliseconds>135</Milliseconds>
+      </Stage>
+      <Stage>
+        <Type>LeftHeadlight RightHeadlight LeftBrakeLight RightBrakeLight</Type>
+        <Milliseconds>140</Milliseconds>
+      </Stage>
+      <Stage>
+        <Type>None</Type>
+        <Milliseconds>135</Milliseconds>
+      </Stage>
+      <Stage>
+        <Type>LeftHeadlight RightHeadlight LeftTailLight RightTailLight</Type>
+        <Milliseconds>140</Milliseconds>
+      </Stage>
+    </Stages>
+  </Pattern>
+  <Pattern Name="Left-Right Fast">
+    <Stages>
+      <Stage>
+        <Type>LeftHeadlight LeftTailLight LeftBrakeLight</Type>
+        <Milliseconds>110</Milliseconds>
+      </Stage>
+      <Stage>
+        <Type>All</Type>
+        <Milliseconds>110</Milliseconds>
+      </Stage>
+      <Stage>
+        <Type>RightHeadlight RightTailLight RightBrakeLight</Type>
+        <Milliseconds>110</Milliseconds>
+      </Stage>
+      <Stage>
+        <Type>All</Type>
+        <Milliseconds>110</Milliseconds>
+      </Stage>
+    </Stages>
+  </Pattern>
+  <Pattern Name="Left-Right Fast 2">
+    <Stages>
+      <Stage>
+        <Type>LeftHeadlight LeftTailLight LeftBrakeLight</Type>
+        <Milliseconds>150</Milliseconds>
+      </Stage>
+      <Stage>
+        <Type>None</Type>
+        <Milliseconds>115</Milliseconds>
+      </Stage>
+      <Stage>
+        <Type>LeftHeadlight LeftTailLight LeftBrakeLight</Type>
+        <Milliseconds>150</Milliseconds>
+      </Stage>
+      <Stage>
+        <Type>All</Type>
+        <Milliseconds>130</Milliseconds>
+      </Stage>
+      <Stage>
+        <Type>RightHeadlight RightTailLight RightBrakeLight</Type>
+        <Milliseconds>150</Milliseconds>
+      </Stage>
+      <Stage>
+        <Type>None</Type>
+        <Milliseconds>115</Milliseconds>
+      </Stage>
+      <Stage>
+        <Type>RightHeadlight RightTailLight RightBrakeLight</Type>
+        <Milliseconds>150</Milliseconds>
+      </Stage>
+      <Stage>
+        <Type>All</Type>
+        <Milliseconds>130</Milliseconds>
+      </Stage>
+    </Stages>
+  </Pattern>
+</ArrayOfPattern>

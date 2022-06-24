@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CVehicleModelInfoVariation>
+  <variationData>
+    <Item>
+      <modelName>mercedesb</modelName>
+			<colors>
+				<Item>
+					<indices content="char_array">
+						111
+					  111
+					  122
+					  156
+					</indices>
+					<liveries />
+				</Item>
+			</colors>
+			<kits>
+				<Item>0_default_modkit</Item>
+			</kits>
+			<windowsWithExposedEdges />
+			<plateProbabilities>
+				<Probabilities>
+					<Item>
+						<Name>police guv plate</Name>
+						<Value value="100" />
+					</Item>
+				</Probabilities>
+			</plateProbabilities>
+			<lightSettings value="72"/>
+			<sirenSettings value="2"/>
+		</Item>
+		<Item>
+      <modelName>mercedesb2</modelName>
+			<colors>
+				<Item>
+					<indices content="char_array">
+						111
+					  111
+					  122
+					  156
+					</indices>
+					<liveries />
+				</Item>
+			</colors>
+			<kits>
+				<Item>0_default_modkit</Item>
+			</kits>
+			<windowsWithExposedEdges />
+			<plateProbabilities>
+				<Probabilities>
+					<Item>
+						<Name>police guv plate</Name>
+						<Value value="100" />
+					</Item>
+				</Probabilities>
+			</plateProbabilities>
+			<lightSettings value="72"/>
+			<sirenSettings value="2"/>
+		</Item>
+ </variationData>
+</CVehicleModelInfoVariation>
