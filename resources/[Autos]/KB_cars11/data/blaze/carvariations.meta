@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<CVehicleModelInfoVariation>
+  <variationData> 
+    <Item>
+      <modelName>blaze</modelName>
+      <colors>
+        <Item>
+          <indices content="char_array">
+            0
+            0
+            0
+            27
+          </indices>
+        </Item>
+        <Item>
+          <indices content="char_array">
+            27
+            27
+            28
+            28
+          </indices>
+        </Item>
+        <Item>
+          <indices content="char_array">
+            54
+            158
+            54
+            37
+          </indices>
+        </Item>
+        <Item>
+          <indices content="char_array">
+            6
+            107
+            0
+            1
+          </indices>
+        </Item>
+        <Item>
+          <indices content="char_array">
+            44
+            0
+            44
+            5
+          </indices>
+        </Item>
+        <Item>
+          <indices content="char_array">
+            111
+            0
+            5
+            111
+          </indices>
+        </Item>
+        <Item>
+          <indices content="char_array">
+            111
+            107
+            0
+            5
+          </indices>
+        </Item>
+        <Item>
+          <indices content="char_array">
+            95
+            95
+            95
+            111
+          </indices>
+        </Item>
+        <Item>
+          <indices content="char_array">
+            0
+            0
+            0
+            5
+          </indices>
+        </Item>
+        <Item>
+          <indices content="char_array">
+            0
+            28
+            44
+            5
+          </indices>
+        </Item>
+        <Item>
+          <indices content="char_array">
+            10
+            107
+            10
+            111
+          </indices>
+        </Item>
+      </colors>
+      <kits>
+        <Item>0_default_modkit</Item>
+      </kits>
+      <windowsWithExposedEdges />
+      <plateProbabilities>
+        <Probabilities />
+      </plateProbabilities>
+      <lightSettings value="1" />
+      <sirenSettings value="0" />
+    </Item>
+  </variationData>
+</CVehicleModelInfoVariation>

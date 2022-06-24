@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ShopVehicleDataArray>
+	<Vehicles>
+		<Item>
+			<lockHash>CU_IMPALASS_VEH</lockHash>
+			<modelNameHash>impalass</modelNameHash>
+			<cost value="100"/>
+			<textLabel>IMPALASSLOWRIDER</textLabel>
+			<vehicleMods></vehicleMods>
+		</Item>
+		<Item>
+			<lockHash>CU_IMPALASS2_VEH</lockHash>
+			<modelNameHash>impalass2</modelNameHash>
+			<cost value="100"/>
+			<textLabel>IMPALASS</textLabel>
+			<vehicleMods></vehicleMods>
+		</Item>
+	</Vehicles>
+</ShopVehicleDataArray>

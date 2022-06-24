@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ShopVehicleDataArray>
+	<Vehicles>
+		<Item>
+			<lockHash>CU_a6fnbodykit_VEH</lockHash>
+			<modelNameHash>a6fnbodykit</modelNameHash>
+			<cost value="100"/>
+			<textLabel>a6fnbodykit</textLabel>
+			<vehicleMods></vehicleMods>
+		</Item>
+	</Vehicles>	
+</ShopVehicleDataArray>
