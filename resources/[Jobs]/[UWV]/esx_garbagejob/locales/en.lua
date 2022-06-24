@@ -1,0 +1,19 @@
+Locales['en'] = {
+  ['cloakroom']	= 'Kledingkast',
+  ['job_wear'] = 'Inklokken',
+  ['citizen_wear'] = 'Uitklokke',
+  ['vehiclespawner'] = 'Selecteer Truck', 
+  ['already_have_truck'] = 'Je hebt al een truck!', 
+  ['collection'] = 'druk op ~INPUT_PICKUP~ Om te beginnen.',
+  ['return_depot'] = 'Ga terug naar kantoor.',
+  ['blip_job'] = 'Vuilnis Station', --'Garbage company',
+  ['blip_delivery'] = 'Vuilnis Station : Pick-up', --'Garbage company : Delivery',
+  ['blip_goal'] = 'Vuilnis Station : Truck Terug Brengen', --'Garbage company : Delivery point',
+  ['cancel_mission'] = 'Druk op ~INPUT_PICKUP~ om te stoppen met je missie',
+  ['collect_bags'] = 'Druk op ~INPUT_PICKUP~ om zak te pakken (%s zakken over)',
+  ['not_near_truck'] = 'Geen truck dichtbij.',
+  ['need_work_truck'] = 'je moet in de bedrijfswagen zijn om te beginnen met ophalen.',
+  ['toss_bag'] = 'Druk op ~INPUT_PICKUP~ om zak in vrachtwagen te plaatsen.',
+  ['drive_to_collection'] = 'rijden naar ophaallocatie.',
+  ['no_trash_aviable'] = 'Er kan op deze locatie geen afval worden opgehaald.'
+}
