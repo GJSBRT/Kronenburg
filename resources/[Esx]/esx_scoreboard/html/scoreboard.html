@@ -1,0 +1,67 @@
+<html>
+
+<head>
+	<script src="nui://game/ui/jquery.js" type="text/javascript"></script>
+	<script src="nui://esx_scoreboard/html/listener.js" type="text/javascript"></script>
+	<style>
+		#wrap {
+			color: #34495e;
+			font-family: 'Segoe UI';
+			width: 38vw;
+			min-height: 5%;
+			margin-top: 2%;
+			margin-left: auto;
+			margin-right: auto;
+			background: rgba(33, 33, 33, 0.7);
+			-webkit-box-shadow: 10px 9px 42px -5px rgba(0, 0, 0, 0.52);
+			-moz-box-shadow: 10px 9px 42px -5px rgba(0, 0, 0, 0.52);
+			box-shadow: 10px 9px 42px -5px rgba(0, 0, 0, 0.52);
+			color: rgba(255, 255, 255, 0.9);
+			border-bottom: 6px solid #fdae0f;
+			border-top-left-radius: 10px;
+			border-top-right-radius: 10px;
+			border-bottom-left-radius: 10px;
+			border-bottom-right-radius: 10px;
+		}
+
+		.jobs {
+			margin-bottom: -1%;
+			width: 100%;
+			display: flex;
+			flex-direction: row;
+			justify-content: space-evenly;
+		}
+
+		.jobs p {
+			font-size: 0.90vw;
+			font-weight: bold;
+			color: green;
+			position: relative;
+		}
+
+		.serverinfo {
+			padding-bottom: 1%;
+			font-size: 0.8vw;
+			text-align: center;
+		}
+	</style>
+</head>
+
+<body>
+	<div style="display: none;" id="wrap">
+		<div class="jobs">
+			<p style="color:#5ea1e0;"> 👮🏻 <span id="police" class="jobspan">0</span> </p>
+			<!-- <p style="color:#2741F5;"> 💂 <span id="kmar" class="jobspan">0</span> </p> -->
+			<p style="color:#c9c619;"> 💎 <span id="casino" class="jobspan">0</span> </p>
+			<p style="color:red;"> 👨‍⚕️ <span id="ems" class="jobspan">0</span> </p>
+			<p style="color:#ff762d;"> 🔧 <span id="mechanic" class="jobspan">0</span> </p>
+			<p style="color:yellow;"> 🚕 <span id="taxi" class="jobspan">0</span> </p>
+			<p style="color:red;"> 🚒 <span id="brandweer" class="jobspan">0</span> </p>
+		</div>
+		<div class="serverinfo">
+			Spelers: <span id="player_count">0</span> / <span id="max_players">128</span>
+		</div>
+	</div>
+</body>
+
+</html>
