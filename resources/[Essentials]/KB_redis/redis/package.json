@@ -1,0 +1,22 @@
+{
+  "name": "redis-client",
+  "version": "0.1.0",
+  "description": "fivem-redis-client",
+  "private": true,
+  "scripts": {
+    "build": "webpack"
+  },
+  "contributors": [
+    "Shayne Sweeney",
+    "Eric Michaels"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "ioredis": "^4.9.0"
+  },
+  "devDependencies": {
+    "eslint": "^5.6.1",
+    "webpack": "^4.20.2",
+    "webpack-cli": "^3.1.2"
+  }
+}
