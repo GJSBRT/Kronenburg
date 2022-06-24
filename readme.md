@@ -10,5 +10,6 @@ dan zal een van onze team leden er naar kijken.
 Onze license is simpel. Je mag onze bestanden, code, text, plaatjes, etc niet gebruiken voor wat dan ook.
 Hieronder staan een paar dingen wat je **wel** mag doen.
 - Je mag wel forken om bijdrage te leveren aan Kronenburg.
+
 Wij houden het recht op al onze code, bestanden, text, plaatjes, etc. Wij hebben het recht om iedereen aan
 te klagen die onze bestanden, code, text, plaatjes, etc gebruikt.
