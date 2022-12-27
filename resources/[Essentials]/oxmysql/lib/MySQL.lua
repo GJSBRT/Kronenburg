@@ -1,3 +1,12 @@
+﻿--[[ 
+	Kronenburg Roleplay
+	Copyright © GJSBRT <g@gijs.eu>
+
+	This project is licensed under the terms of the Apache License 2.0 license.
+	https://choosealicense.com/licenses/apache-2.0/
+]]
+ 
+ 
 -- lib/MySQL.lua provides complete compatibility for resources designed for mysql-async
 -- As of v2.0.0 this is the preferred method of interacting with oxmysql
 -- * You can use mysql-async syntax or oxmysql syntax (refer to issue #77 or line 118)

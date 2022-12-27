@@ -1,3 +1,12 @@
+﻿--[[ 
+	Kronenburg Roleplay
+	Copyright © GJSBRT <g@gijs.eu>
+
+	This project is licensed under the terms of the Apache License 2.0 license.
+	https://choosealicense.com/licenses/apache-2.0/
+]]
+ 
+ 
 AddTextEntryByHash(GetHashKey("politiebklasse"),   "Mercedes B klasse")                  --225 km/h
 AddTextEntryByHash(GetHashKey("PolitieVito"),   "Mercedes Vito")                      --215 km/h
 AddTextEntryByHash(GetHashKey("PolitieT6"),   "Volkswagen T6")                      --205 km/h

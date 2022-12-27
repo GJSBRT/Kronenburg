@@ -1,3 +1,12 @@
+﻿--[[ 
+	Kronenburg Roleplay
+	Copyright © GJSBRT <g@gijs.eu>
+
+	This project is licensed under the terms of the Apache License 2.0 license.
+	https://choosealicense.com/licenses/apache-2.0/
+]]
+ 
+ 
 function AddNewVariation(which, gender, one, two, single)
 	local Where = Variations[which][gender]
 	if not single then

@@ -1,3 +1,12 @@
+﻿--[[ 
+	Kronenburg Roleplay
+	Copyright © GJSBRT <g@gijs.eu>
+
+	This project is licensed under the terms of the Apache License 2.0 license.
+	https://choosealicense.com/licenses/apache-2.0/
+]]
+ 
+ 
 local hospitalCheckin = { x = -438.07, y = -325.98, z = 34.91, h = 334.76 }
 local hospitalCheckin2 = { x = -264.23, y = 6313.43, z = 32.44, h = 328.65 }
 local hospitalCheckin3 = { x = 1833.06, y = 3682.85, z = 34.27, h = 293.0}

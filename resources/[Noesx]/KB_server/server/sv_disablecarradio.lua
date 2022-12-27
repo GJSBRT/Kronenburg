@@ -1,3 +1,12 @@
+﻿--[[ 
+	Kronenburg Roleplay
+	Copyright © GJSBRT <g@gijs.eu>
+
+	This project is licensed under the terms of the Apache License 2.0 license.
+	https://choosealicense.com/licenses/apache-2.0/
+]]
+ 
+ 
 TriggerEvent('chat:addSuggestion', '/autoradio', 'Zet je voertuig radio aan of uit', {
     { name="aan", help="Zet je radio aan" },
     { name="uit", help="Zet je radio uit" }

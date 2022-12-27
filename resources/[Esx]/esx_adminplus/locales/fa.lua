@@ -1,3 +1,12 @@
+﻿--[[ 
+	Kronenburg Roleplay
+	Copyright © GJSBRT <g@gijs.eu>
+
+	This project is licensed under the terms of the Apache License 2.0 license.
+	https://choosealicense.com/licenses/apache-2.0/
+]]
+ 
+ 
 Locales['fa'] = {
   ['kill_by_admin']    = '^1[KILL]^0 shoma tavasot admin koshte shodid',
   ['teleported']       = '^1[TPM]^0 shoma be mahal alamat gozari shode teleport shodid',

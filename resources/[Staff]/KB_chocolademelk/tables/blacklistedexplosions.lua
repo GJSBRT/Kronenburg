@@ -1,3 +1,12 @@
+﻿--[[ 
+	Kronenburg Roleplay
+	Copyright © GJSBRT <g@gijs.eu>
+
+	This project is licensed under the terms of the Apache License 2.0 license.
+	https://choosealicense.com/licenses/apache-2.0/
+]]
+ 
+ 
 -- Here you are going to configure all your blacklisted explosions, if you DON'T know what are you doing, leave it default and follow the tutorial
 -- If you already know what im talking about have fun.
 

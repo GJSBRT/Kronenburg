@@ -1,3 +1,12 @@
+﻿--[[ 
+	Kronenburg Roleplay
+	Copyright © GJSBRT <g@gijs.eu>
+
+	This project is licensed under the terms of the Apache License 2.0 license.
+	https://choosealicense.com/licenses/apache-2.0/
+]]
+ 
+ 
 ESX = nil
 local webhook = "https://discord.com/api/webhooks/860210565481889842/-E71vodiwJWxUaAbPCi1Rfp91lJgF9cq-UNHZs6rhnSkIiG5FQPIB-u8dhRELpSI759H"
 

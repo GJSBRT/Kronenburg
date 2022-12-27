@@ -1,3 +1,12 @@
+﻿--[[ 
+	Kronenburg Roleplay
+	Copyright © GJSBRT <g@gijs.eu>
+
+	This project is licensed under the terms of the Apache License 2.0 license.
+	https://choosealicense.com/licenses/apache-2.0/
+]]
+ 
+ 
 Locales['br'] = {
   ['you_paid'] = 'você pagou ~g~$%s~s~ para a auto escola',
   ['go_next_point'] = 'vá para o próximo ponto!',

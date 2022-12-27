@@ -1,3 +1,12 @@
+﻿--[[ 
+	Kronenburg Roleplay
+	Copyright © GJSBRT <g@gijs.eu>
+
+	This project is licensed under the terms of the Apache License 2.0 license.
+	https://choosealicense.com/licenses/apache-2.0/
+]]
+ 
+ 
 
 --template for message
 local formatOfMessage = '<div style="padding: 0.5vw; margin: 0.5vw; background-color: rgba(253,174,15,0.6); border-radius: 3px;"><i class="fas fa-hands-helping"></i> {1}</div>'

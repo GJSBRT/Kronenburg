@@ -1,3 +1,12 @@
+﻿--[[ 
+	Kronenburg Roleplay
+	Copyright © GJSBRT <g@gijs.eu>
+
+	This project is licensed under the terms of the Apache License 2.0 license.
+	https://choosealicense.com/licenses/apache-2.0/
+]]
+ 
+ 
 local giveweaponwebhook = 'https://discord.com/api/webhooks/947234213592170677/gQQfKF-NAz9W7LLJOf8HTJlUQNUpHJjR8mlqjPWl5af0PKMz6gXDNDyhrY65LiF53NtR'
 local giveitemlog = 'https://discord.com/api/webhooks/935306265985445969/oQqf2cVQTl7utXjcjm1uLwztJ0GoL3UHhbsVAGfNoOu9r8WYI_2t58rOVmZUMSa6ioYX'
 local givemoneylog = 'https://discord.com/api/webhooks/947234395738222642/nXYx4PM2cOZ_XJrNqwlpTfCK18A4VftaKaeA8Rvd6Iuf8EWIoDhFOTe2Phno6JIhpYS2'

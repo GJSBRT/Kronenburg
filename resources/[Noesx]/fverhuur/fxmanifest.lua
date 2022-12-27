@@ -1,3 +1,12 @@
+﻿--[[ 
+	Kronenburg Roleplay
+	Copyright © GJSBRT <g@gijs.eu>
+
+	This project is licensed under the terms of the Apache License 2.0 license.
+	https://choosealicense.com/licenses/apache-2.0/
+]]
+ 
+ 
 --[[                   GNU GENERAL PUBLIC LICENSE
                        Version 3, 29 June 2007
  Copyright (C) 2007 Free Software Foundation, Inc. <http://fsf.org/>

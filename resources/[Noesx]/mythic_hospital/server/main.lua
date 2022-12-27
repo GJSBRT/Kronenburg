@@ -1,3 +1,12 @@
+﻿--[[ 
+	Kronenburg Roleplay
+	Copyright © GJSBRT <g@gijs.eu>
+
+	This project is licensed under the terms of the Apache License 2.0 license.
+	https://choosealicense.com/licenses/apache-2.0/
+]]
+ 
+ 
 local beds = {
     { x = -448.32, y = -283.65, z = 35.83, h = 200.1, taken = false, model = 2117668672 },
     { x = -451.59, y = -284.79, z = 35.83, h = 200.1, taken = false, model = 2117668672 },

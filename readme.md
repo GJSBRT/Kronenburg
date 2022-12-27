@@ -1,15 +1,41 @@
-![Logo](https://cdn.discordapp.com/attachments/925533563946954752/935297453358477392/kronenburg.png)<br/>
+# Kronenburg Roleplay
 Welkom bij de Kronenburg Roleplay repo. Hier zul je alle bestanden vinden die kronenburg maken.
 
+## Licentie
+Kronenburg Roleplay
+Copyright © GJSBRT <g@gijs.eu>
 
-## Toevoegen aan Kronenbrug
-Heb jij een toevoeging die je wilt doen aan Kronenburg? Maak dan gerust een pull request aan,
-dan zal een van onze team leden er naar kijken.
+This software is licensed under the terms of the Apache License 2.0 license.
+https://choosealicense.com/licenses/apache-2.0/
 
-## License
-Onze license is simpel. Je mag onze bestanden, code, text, plaatjes, etc niet gebruiken voor wat dan ook.
-Hieronder staan een paar dingen wat je **wel** mag doen.
-- Je mag wel forken om bijdrage te leveren aan Kronenburg.
+## Structuur
 
-Wij houden het recht op al onze code, bestanden, text, plaatjes, etc. Wij hebben het recht om iedereen aan
-te klagen die onze bestanden, code, text, plaatjes, etc gebruikt.
+> resources
+    > [Autos] - Alle carpacks/voertuigen
+    > [Casino] - Resources voor het casino
+    > [Chat] - Resources voor de chat
+    > [Discord] - Alles voor de Discord Intergratie
+    > [Drugs] - Resources voor Drugs
+    > [Essentials] - Alle essentiele scripts die nodig zijn
+    > [ESX] - Alle `esx_` scripts
+    > [EUP] - Alle kleding resources
+    > [FiveM] - FiveM resources zoals sessionmanager, builders, etc
+    > [Heist] - Alle resources voor de bank heist
+    > [Hud] - Alle UI scripts zoals de snelheidsmeter, gordel, etc
+    > [Jobs] - Alle banen
+        > [AMBULANCE] - Alle ambulance resources
+        > [ANWB] - Alle wegenwacht resources
+        > [BRANDWEER] - Alle brandweer resources
+        > [GANGS] - Resources voor bepaalde gangs
+        > [KMAR] - Alle KMAR resources(staat uit)
+        > [POLITIE] - Alle Polite resources
+        > [TAXI] - Alle taxi resources
+        > [UWV] - Alle banencentrum banen
+    > [lightbars_test2] - Lightbar resources
+    > [Meldingen] - Allemaal melding resources. Er wordt voornamenlijk ESX notification gebruikt.
+    > [Noesx] - Alle standalone resources die geen ESX nodig hebben
+    > [Staff] - Alle staff scripts zoals anticheat, logs, screenshots, etc
+    > [Stream] - Alle gebouwen, huizen, etc
+    > [Telefoon] - Alle scripts die met de telefoon te maken hebben
+    > [Voice] - Alle scripts die met de voice chat te maken hebben
+> server.cfg - Server config

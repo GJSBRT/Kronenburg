@@ -1,3 +1,12 @@
+﻿--[[ 
+	Kronenburg Roleplay
+	Copyright © GJSBRT <g@gijs.eu>
+
+	This project is licensed under the terms of the Apache License 2.0 license.
+	https://choosealicense.com/licenses/apache-2.0/
+]]
+ 
+ 
 Locales['en'] = {
 	['GPS_info'] = 'Ga naar de locatie op je ~y~GPS',
 	['cancel_mission'] = 'Je bent gestopt met werken',

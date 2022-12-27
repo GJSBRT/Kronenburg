@@ -1,3 +1,12 @@
+﻿--[[ 
+	Kronenburg Roleplay
+	Copyright © GJSBRT <g@gijs.eu>
+
+	This project is licensed under the terms of the Apache License 2.0 license.
+	https://choosealicense.com/licenses/apache-2.0/
+]]
+ 
+ 
 Locales['en'] = {
 	['you_have_washed'] 		= 'Je hebt je zwartgeld witgewassen. ~r~$',
 	['you_have_washed_waiting'] = '~r~Je hebt zwartgeld dat gewassen moet worden. ~s~Tijd:~b~  ',

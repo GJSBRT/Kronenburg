@@ -1,3 +1,12 @@
+﻿--[[ 
+	Kronenburg Roleplay
+	Copyright © GJSBRT <g@gijs.eu>
+
+	This project is licensed under the terms of the Apache License 2.0 license.
+	https://choosealicense.com/licenses/apache-2.0/
+]]
+ 
+ 
 Locales['sv'] = {
   ['shop_robbery'] = 'butikrån',
   ['press_to_rob'] = 'tryck ~INPUT_CONTEXT~ för att ~o~råna~s~ ~b~%s~s~',

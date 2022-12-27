@@ -1,3 +1,12 @@
+﻿--[[ 
+	Kronenburg Roleplay
+	Copyright © GJSBRT <g@gijs.eu>
+
+	This project is licensed under the terms of the Apache License 2.0 license.
+	https://choosealicense.com/licenses/apache-2.0/
+]]
+ 
+ 
 ESX = nil
 local playersHealing, deadPlayers = {}, {}
 local webhook = "https://canary.discord.com/api/webhooks/948744111534534709/NHuwKUf4ZxSpgJ_cDSYx4ATliiJ8joTAGTIkmUpC5QLRKxUkx5sEQi8dUngwYm3wO9cB"

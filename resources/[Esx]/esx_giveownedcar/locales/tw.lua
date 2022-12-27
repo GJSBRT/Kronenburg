@@ -1,3 +1,12 @@
+﻿--[[ 
+	Kronenburg Roleplay
+	Copyright © GJSBRT <g@gijs.eu>
+
+	This project is licensed under the terms of the Apache License 2.0 license.
+	https://choosealicense.com/licenses/apache-2.0/
+]]
+ 
+ 
 Locales['tw'] = {
 	['gived_car'] = '已將 ~y~%s ~s~車牌為~y~ %s ~s~的車分配給 ~g~%s',
 	['received_car'] = '你已收到一台車牌為 ~y~%s ~s~的車, 快去車庫看看吧!',

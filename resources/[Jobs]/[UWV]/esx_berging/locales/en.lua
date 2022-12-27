@@ -1,3 +1,12 @@
+﻿--[[ 
+	Kronenburg Roleplay
+	Copyright © GJSBRT <g@gijs.eu>
+
+	This project is licensed under the terms of the Apache License 2.0 license.
+	https://choosealicense.com/licenses/apache-2.0/
+]]
+ 
+ 
 Locales['en'] = {
   ['GPS_info'] = '~b~Radio: Een nieuw wrak is gelocaliseerd op de map ~y~GPS~s~',
   ['cancel_mission'] = 'Je hebt de missie  ~r~geanulleerd~s~',

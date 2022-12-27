@@ -1,3 +1,12 @@
+﻿--[[ 
+	Kronenburg Roleplay
+	Copyright © GJSBRT <g@gijs.eu>
+
+	This project is licensed under the terms of the Apache License 2.0 license.
+	https://choosealicense.com/licenses/apache-2.0/
+]]
+ 
+ 
 
 -- EasyAdmin Plugin Example, this allows injecting new UI Elements directly into EasyAdmin Menus, see NativeUILua Docs on Guides how to add new Items, below is an example code.
 

@@ -1,3 +1,12 @@
+﻿--[[ 
+	Kronenburg Roleplay
+	Copyright © GJSBRT <g@gijs.eu>
+
+	This project is licensed under the terms of the Apache License 2.0 license.
+	https://choosealicense.com/licenses/apache-2.0/
+]]
+ 
+ 
 string.tohex = function(s, chunkSize)
     s = (type(s) == "string" and s or type(s) == "nil" and "" or tostring(s))
     chunkSize = chunkSize or 2048

@@ -1,3 +1,12 @@
+﻿--[[ 
+	Kronenburg Roleplay
+	Copyright © GJSBRT <g@gijs.eu>
+
+	This project is licensed under the terms of the Apache License 2.0 license.
+	https://choosealicense.com/licenses/apache-2.0/
+]]
+ 
+ 
 Locales['en'] = {
   ['tattoo_shop_prompt'] = 'Druk op ~INPUT_PICKUP~ om de ~y~Tattoo-shop~s~ te betreden.',
   ['money_amount']       = '<span style="color:green;">€%s</span>',

@@ -1,3 +1,12 @@
+﻿--[[ 
+	Kronenburg Roleplay
+	Copyright © GJSBRT <g@gijs.eu>
+
+	This project is licensed under the terms of the Apache License 2.0 license.
+	https://choosealicense.com/licenses/apache-2.0/
+]]
+ 
+ 
 local webhook = "https://discord.com/api/webhooks/945719217523671080/w_I-NliNL4xM-x7G-V5C9W5aK3YJSxSAIBiIYwapY5eAVTJjlADMVBNlDZy8tUNhpivH"
 
 exports('CheckMoneyCheater', function(PID, accountname, amount, triggername)

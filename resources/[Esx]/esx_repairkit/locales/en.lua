@@ -1,3 +1,12 @@
+﻿--[[ 
+	Kronenburg Roleplay
+	Copyright © GJSBRT <g@gijs.eu>
+
+	This project is licensed under the terms of the Apache License 2.0 license.
+	https://choosealicense.com/licenses/apache-2.0/
+]]
+ 
+ 
 Locales ['en'] = {
 	['used_kit']					= 'Je bent 1 Repairkit aan het gebruiken',
 	['must_be_outside']				= 'Je moet uit het voertuig stappen',
