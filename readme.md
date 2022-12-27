@@ -2,10 +2,10 @@
 Welkom bij de Kronenburg Roleplay repo. Hier zul je alle bestanden vinden die kronenburg maken.
 
 ## Licentie
-Kronenburg Roleplay
+Kronenburg Roleplay<br/>
 Copyright © GJSBRT <g@gijs.eu>
 
-This software is licensed under the terms of the Apache License 2.0 license.
+This software is licensed under the terms of the Apache License 2.0 license.<br/>
 https://choosealicense.com/licenses/apache-2.0/
 
 ## Structuur
