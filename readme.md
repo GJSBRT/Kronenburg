@@ -1,4 +1,4 @@
-# Kronenburg Roleplay
+<h1><img height=40 src="https://github.com/GJSBRT/Kronenburg/raw/main/Logo.png"/>  Kronenburg Roleplay</h1>
 Welkom bij de Kronenburg Roleplay repo. Hier zul je alle bestanden vinden die kronenburg maken.
 
 ## Licentie
