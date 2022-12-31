@@ -40,3 +40,6 @@ https://choosealicense.com/licenses/apache-2.0/
 │   └── [Voice] - Alle scripts die met de voice chat te maken hebben
 └── server.cfg - Server config
 ```
+
+## Logs Discord Template
+[https://discord.new/MqV9DwVH93um](https://discord.new/MqV9DwVH93um)
