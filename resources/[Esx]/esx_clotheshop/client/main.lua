@@ -53,7 +53,6 @@ function OpenCloakroomMenu()
 end
 
 
-
 function OpenShopMenu()
 	hasPaid = false
 
@@ -70,8 +69,6 @@ function OpenShopMenu()
 			menu.close()
 
 			if data.current.value == 'yes' then
-				local x, y, z = table.unpack(GetEntityCoords(ped, true))
-				local street = GetStreetNameAtCoord(x, y, z)
 				ESX.TriggerServerCallback('esx_clotheshop:buyClothes', function(bought)
 					if bought then
 						TriggerEvent('skinchanger:getSkin', function(skin)
@@ -116,7 +113,7 @@ function OpenShopMenu()
 
 						ESX.ShowNotification(_U('not_enough_money'))
 					end
-				end, GetStreetNameFromHashKey(street))
+				end)
 			elseif data.current.value == 'no' then
 				ESX.TriggerServerCallback('esx_skin:getPlayerSkin', function(skin)
 					TriggerEvent('skinchanger:loadSkin', skin)
@@ -209,7 +206,7 @@ Citizen.CreateThread(function()
 
 			if distance < Config.DrawDistance then
 				letSleep = false
-				DrawMarker(Config.MarkerType, v, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, Config.MarkerSize.x, Config.MarkerSize.y, Config.MarkerSize.z, Config.MarkerColor.r, Config.MarkerColor.g, Config.MarkerColor.b, 100, false, true, 2, true, nil, nil, false)
+				DrawMarker(Config.MarkerType, v, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, Config.MarkerSize.x, Config.MarkerSize.y, Config.MarkerSize.z, Config.MarkerColor.r, Config.MarkerColor.g, Config.MarkerColor.b, 100, false, true, 2, false, nil, nil, false)
 
 				if distance < Config.MarkerSize.x then
 					isInMarker, currentZone = true, k
@@ -224,7 +221,7 @@ Citizen.CreateThread(function()
 
 			if distance < Config.DrawDistance then
 				letSleep = false
-				DrawMarker(Config.MarkerType, v, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, Config.MarkerSize.x, Config.MarkerSize.y, Config.MarkerSize.z, Config.MarkerColor.r, Config.MarkerColor.g, Config.MarkerColor.b, 100, false, true, 2, true, nil, nil, false)
+				DrawMarker(Config.MarkerType, v, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, Config.MarkerSize.x, Config.MarkerSize.y, Config.MarkerSize.z, Config.MarkerColor.r, Config.MarkerColor.g, Config.MarkerColor.b, 100, false, true, 2, false, nil, nil, false)
 
 				if distance < Config.MarkerSize.x then
 					isInMarker, currentZone = true, 'cloakroom'

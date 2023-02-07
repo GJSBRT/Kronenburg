@@ -196,6 +196,7 @@ Locales['en'] = {
   ['weapon_militaryrifle'] = 'Military Rifle',
   ['weapon_specialcarbine'] = 'Special Carbine',
   ['weapon_specialcarbine_mk2'] = 'Special Carbine MK2',
+  ['weapon_m4'] = 'M4',
 
   -- Sniper
   ['weapon_heavysniper'] = 'Heavy Sniper',

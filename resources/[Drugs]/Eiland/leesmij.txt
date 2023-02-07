@@ -1,0 +1,11 @@
+TDA Cayo Perico!
+
+Om Cayo Perico te installeren moet je het volgende doen:
+
+• Zet in je server.cfg ergens set sv_enforceGameBuild 2189
+• Zorg ervoor dat u het FiveM canary-updatekanaal gebruikt. Je kunt dit indien nodig inschakelen in de FiveM-instellingen (het ⚙️-pictogram).
+• Zorg ervoor dat je server build hoger dan 3324 is
+• start eiland in je server.cfg
+
+Veel plezier met het eiland!
+

@@ -20,9 +20,9 @@ Config = {}
 	--=====				Prijsverkoop			==========--
 	--------------------------------------------------------
 	-- A = Minimum Prijs B = Maximale Prijs <--------
-	Config.FishPrice = 		{a = 950,  b = 1000} 								--	Echt geld voor elke 5kg vis.
-	Config.TurtlePrice = 	{a = 3500, b = 3600} 								--	Zwartgeld
-	Config.SharkPrice = 	{a = 4000, b = 4500} 								--	Zwartgeld
+	Config.FishPrice = 		{a = 1050,  b = 1200} 								--	Echt geld voor elke 5kg vis.
+	Config.TurtlePrice = 	{a = 4500, b = 5000} 								--	Zwartgeld
+	Config.SharkPrice = 	{a = 10000, b = 11000} 								--	Zwartgeld
 
 	--------------------------------------------------------
 	--=====				Verkoop plekken			  ========--

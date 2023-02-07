@@ -763,6 +763,11 @@ Config.Weapons = {
 			{name = 'camo_finish11', label = _U('component_camo_finish11'), hash = `COMPONENT_SPECIALCARBINE_MK2_CAMO_IND_01`}
 		}
 	},
+	{
+        name = 'WEAPON_M4',
+        label = _U('weapon_m4'),
+        components = {}
+    },
 	-- Sniper
 	{
 		name = 'WEAPON_HEAVYSNIPER',

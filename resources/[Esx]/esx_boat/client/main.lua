@@ -54,8 +54,6 @@ function OpenBoatShop(shop)
 		}}, function (data2, menu2)
 			if data2.current.value == 'yes' then
 				local plate = exports['esx_vehicleshop']:GeneratePlate()
-				TriggerServerEvent("pepperspray:addVehiclePlate", plate)
-				Wait(200)
 				local vehicle = GetVehiclePedIsIn(playerPed, false)
 				local props = ESX.Game.GetVehicleProperties(vehicle)
 				props.plate = plate
@@ -101,8 +99,6 @@ function OpenBoatShop(shop)
 
 		ESX.Game.SpawnLocalVehicle(data.current.model, shop.Inside, shop.Inside.w, function (vehicle)
 			table.insert(spawnedVehicles, vehicle)
-			TriggerServerEvent("pepperspray:addVehiclePlate", GetVehicleNumberPlateText(vehicle))
-			Wait(200)
 			TaskWarpPedIntoVehicle(playerPed, vehicle, -1)
 			FreezeEntityPosition(vehicle, true)
 
@@ -117,8 +113,6 @@ function OpenBoatShop(shop)
 
 	ESX.Game.SpawnLocalVehicle(Config.Vehicles[1].model, shop.Inside, shop.Inside.w, function (vehicle)
 		table.insert(spawnedVehicles, vehicle)
-		TriggerServerEvent("pepperspray:addVehiclePlate", GetVehicleNumberPlateText(vehicle))
-		Wait(200)
 		TaskWarpPedIntoVehicle(playerPed, vehicle, -1)
 		FreezeEntityPosition(vehicle, true)
 
@@ -158,8 +152,6 @@ function OpenBoatGarage(garage)
 					ESX.ShowNotification(_U('garage_taken'))
 
 					ESX.Game.SpawnVehicle(vehicleProps.model, garage.SpawnPoint, garage.SpawnPoint.w, function(vehicle)
-						TriggerServerEvent("pepperspray:addVehiclePlate", GetVehicleNumberPlateText(vehicle))
-						Wait(200)
 						TaskWarpPedIntoVehicle(playerPed, vehicle, -1)
 						exports['KB_server']:spawnedPersonalVehicle(vehicle)
 						ESX.Game.SetVehicleProperties(vehicle, vehicleProps)

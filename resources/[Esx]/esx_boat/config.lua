@@ -15,15 +15,15 @@ Config.LicenseEnable = true -- enable boat license? Requires esx_license
 Config.LicensePrice  = 15000
 
 Config.MarkerType    = 20
-Config.DrawDistance  = 100.0
+Config.DrawDistance  = 50.0
 
 Config.Marker = {
-	r = 255, g = 175, b = 0, -- blue-ish color
+	r = 255, g = 157, b = 0, -- blue-ish color
 	x = 0.7, y = 0.7, z = 0.35 -- standard size circle
 }
 
 Config.StoreMarker = {
-	r = 237, g = 41, b = 57,     -- red color
+	r = 255, g = 0, b = 0,     -- red color
 	x = 5.0, y = 5.0, z = 1.0  -- big circle for storing boat
 }
 
@@ -32,7 +32,7 @@ Config.Zones = {
 	Garages = {
 		{ -- Shank St, nearby campaign boat garage
 			GaragePos  = vector3(-772.4, -1430.9, 1.5),
-			SpawnPoint = vector4(-785.39, -1426.3, 0.0, 146.0),
+			SpawnPoint = vector4(-936.0607, -1633.7017, -0.4749, 133.2325),
 			StorePos   = vector3(-798.4, -1456.0, 0.0),
 			StoreTP    = vector4(-791.4, -1452.5, 1.5, 318.9)
 		},
@@ -60,7 +60,7 @@ Config.Zones = {
 
 		{ -- Elysian Fields, nearby the airport
 			GaragePos  = vector3(23.8, -2806.8, 5.8),
-			SpawnPoint = vector4(23.3, -2828.6, 0.8, 181.0),
+			SpawnPoint = vector4(24.7689, -2908.5474, 0.1892, 186.1541),
 			StorePos   = vector3(-1.0, -2799.2, 0.5),
 			StoreTP    = vector4(12.6, -2793.8, 2.5, 355.2)
 		},
@@ -90,7 +90,7 @@ Config.Zones = {
 	BoatShops = {
 		{ -- Shank St, nearby campaign boat garage
 			Outside = vector3(-773.7, -1495.2, 2.6),
-			Inside = vector4(-798.5, -1503.1, -0.4, 120.0)
+			Inside = vector4(-1781.6842, -1935.3821, 0.0000, 46.2530)
 		}
 	}
 
@@ -106,5 +106,7 @@ Config.Vehicles = {
 	{model = 'squalo', label = 'Squalo (Random Color)', price = 71000},
 	{model = 'toro', label = 'Toro', price = 200000},
 	{model = 'longfin', label = 'Longfin', price = 300000},
-	{model = 'avisa', label = 'Avisa', price = 2000000}
+	{model = 'avisa', label = 'Avisa', price = 2000000},
+	{model = 'sr650fly', label = 'SR650', price = 2000000},
+	{model = 'yaluxe', label = 'Superyacht', price = 10000000}
 }

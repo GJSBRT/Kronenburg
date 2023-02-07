@@ -1,0 +1,17 @@
+Locales['en'] = {
+  ['not_enough_money']    = 'Je hebt niet genoeg geld',
+  ['boat_belongs']        = 'een eiland voertuig met plaat %s is nu van jou.',
+  ['generic_shopitem']    = '€%s',
+  ['boat_dealer']         = 'Eiland Cardealer',
+  ['buy_boat_shop']       = 'Wil je dit kopen %s voor €%s?',
+  ['buy_license']         = 'Koop bewijs €1000',
+  ['no']                  = 'Nee',
+  ['yes']                 = 'Ja ',
+  ['boat_purchased']      = 'Je hebt een eiland voerutig gekocht!',
+  ['shop_menu']           = 'Druk op ~INPUT_CONTEXT~ om het menu te openen',
+  ['shop_awaiting_model'] = 'Dit voertuig is aan het ~g~DOWNLOADEN even geduld aub. (Duurt dit te lang relog dan)',
+  ['sell_menu']           = 'Druk op ~INPUT_CONTEXT~ om je ~y~%s~s~ te verkopen voor ~g~$%s~s~',
+  ['license_missing']     = 'Je hebt geen bewijs!',
+  ['boat_sold_for']       = '%s is verkocht voor €%s',
+  ['not_yours']           = 'Dit eiland voetuig is niet van jou!',
+}

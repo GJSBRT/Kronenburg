@@ -1966,7 +1966,7 @@ Config.BoatGarages = {
 			HelpPrompt = _U('store_boat')
 		}, 	
 	},]]
---[[	BoatGarage_Cayo = {
+	BoatGarage_Cayo = {
 		Pos = {x = 4935.96,y = -5182.79,z = 2.45 },
 		Marker = { w= 1.0, h= 0.25,r = 204, g = 204, b = 0},
 		Name = _U('boat_garage_name'),
@@ -1983,7 +1983,7 @@ Config.BoatGarages = {
 			Marker = { w= 2.5, h= 1.0,r=255,g=0,b=0},
 			HelpPrompt = _U('store_boat')
 		}, 	
-	},]]
+	},
 }
 
 Config.AirplaneGarages = {
@@ -2067,27 +2067,26 @@ Config.AirplaneGarages = {
 			{x=2137.98, y=4811.98, z=41.29, h=114.64},
 		}
 	},
-	--[[
 	AirplaneGarage_Cayo = {
-		Pos = {x = 4463.19,y = -4471.5,z = 4.24 },
+		Pos = {x = 4441.5962,y = -4487.8057,z = 4.2310 },
 		Marker = { w= 1.0, h= 0.75,r = 204, g = 204, b = 0},
 		Name = _U('plane_garage_name'),
 		HelpPrompt = _U('open_plane_garage'),
 		SpawnPoint = {
-			Pos = {x = 4462.48,y = -4469.16,z = 4.24 },
+			Pos = {x = 4441.5962,y = -4487.8057,z = 4.2310 },
 			Heading = 160.0,
 			Marker = { w= 1.0, h= 0.75,r=0,g=255,b=0},
 			HelpPrompt = _U('spawn_plane')
 		},
 		DeletePoint = {
-			Pos = {x = 4484.85,y = -4460.11,z = 4.24 },
+			Pos = {x = 4452.2051,y = -4489.3823,z = 4.2114 },
 			Marker = { w= 3.5, h= 1.0,r=255,g=0,b=0},
 			HelpPrompt = _U('store_plane')
 		}, 	
 		RandomSpawns = {
-			{x=4517.11, y=-4472.26, z=4.18, h=110.57},
+			{x=4458.8018, y=-4491.4868, z=4.2025, h=110.57},
 		}
-	},]]
+	},
 }
 
 
