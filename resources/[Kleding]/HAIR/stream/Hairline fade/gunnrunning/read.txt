@@ -1,0 +1,3 @@
+Grand Theft Auto V\mods\update\x64\dlcpacks\mpgunrunning\dlc.rpf\x64\models\cdimages\mpgunrunning_ped_mp_overlay_txds.rpf\
+
+fixed the fade & line up on the NEW one
