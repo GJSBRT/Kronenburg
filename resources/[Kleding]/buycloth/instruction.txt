@@ -1,0 +1,44 @@
+**ENG:**
+
+After downloading, extract all ".rar" files into a folder and move them to stream.
+
+
+---------EXAMPLE---------
+
+
+Air Force l Low.rar ----> extract to the Air Force l Low folder and move it to the stream folder
+
+
+
+*If you have more than one item in ".rar" format, I recommend that you unpack each item into a separate folder, 
+and then move all folders to the stream folder.
+
+Just like here: https://imgur.com/a/xYH2cUM
+
+---------------------------------------------------------------
+
+If you have any questions or if there is any problem, write a ticket on our discord.
+
+
+
+
+**PL:**
+
+Po pobraniu wypakuj wszystkie pliki „.rar” do folderu i przenieś je do stream.
+
+
+---------PRZYKŁAD---------
+
+
+Air Force l Low.rar ----> wypakuj do folderu Air Force l Low i przenieś go do folderu stream
+
+
+
+* Jeśli masz więcej niż jeden przedmiot w formacie „.rar”, zalecamy rozpakowanie każdego przedmiotu do osobnego folderu, 
+a następnie przeniesienie wszystkich folderów do folderu stream.
+
+Tak jak tu: https://imgur.com/a/xYH2cUM
+
+---------------------------------------------------------------
+
+Jeśli masz pytania lub jeżeli wystąpi jakiś problem, napisz ticket na naszym discord.
